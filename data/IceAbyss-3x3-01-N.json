@@ -1,0 +1,2365 @@
+{
+    "markers": [
+        {
+            "coordinates": {
+                "lat": 273.92,
+                "lng": 44.53
+            },
+            "id": "DCPlayerStart_1"
+        },
+        {
+            "coordinates": {
+                "lat": 278.77,
+                "lng": 85.71
+            },
+            "id": "BP_IceSecretWallDoor02"
+        },
+        {
+            "coordinates": {
+                "lat": 363.04,
+                "lng": 54.64
+            },
+            "id": "Id_Spawner_Monster_FrostSkeletonArcher_Medium"
+        },
+        {
+            "coordinates": {
+                "lat": 285.18,
+                "lng": 63.04
+            },
+            "id": "Id_Spawner_Props_FloorLever_OnlyActivate"
+        },
+        {
+            "coordinates": {
+                "lat": 284.61,
+                "lng": 107.11
+            },
+            "id": "Id_Spawner_Props_FloorLever_OnlyActivate"
+        },
+        {
+            "coordinates": {
+                "lat": 295.14,
+                "lng": 111.79
+            },
+            "id": "Id_Spawner_Props_FloorLever_OnlyActivate"
+        },
+        {
+            "coordinates": {
+                "lat": 327.86,
+                "lng": 75.0
+            },
+            "id": "BP_FrozenIronDoor"
+        },
+        {
+            "coordinates": {
+                "lat": 333.04,
+                "lng": 99.64
+            },
+            "id": "Id_Spawner_Monster_IceHound_Medium"
+        },
+        {
+            "coordinates": {
+                "lat": 343.11,
+                "lng": 56.14
+            },
+            "id": "Id_Spawner_Props_ChestSpecial_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 337.93,
+                "lng": 67.57
+            },
+            "id": "Id_Spawner_LootDrop_Ground_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 320.07,
+                "lng": 89.36
+            },
+            "id": "Id_Spawner_LootDrop_Ground_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 320.07,
+                "lng": 104.0
+            },
+            "id": "Id_Spawner_LootDrop_Ground_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 334.36,
+                "lng": 104.0
+            },
+            "id": "Id_Spawner_LootDrop_Ground_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 316.86,
+                "lng": 93.29
+            },
+            "id": "Id_Spawner_LootDrop_Gems_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 285.71,
+                "lng": 105.4
+            },
+            "id": "Id_Spawner_Props_ChestMedium_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 281.32,
+                "lng": 86.25
+            },
+            "id": "Id_Spawner_Monster_FrostSentinel_Medium"
+        },
+        {
+            "coordinates": {
+                "lat": 270.54,
+                "lng": 83.93
+            },
+            "id": "Id_Spawner_Monster_IceGiantSpider_Medium"
+        },
+        {
+            "coordinates": {
+                "lat": 322.11,
+                "lng": 91.39
+            },
+            "id": "Id_Spawner_Monster_IceHound_Medium"
+        },
+        {
+            "coordinates": {
+                "lat": 288.93,
+                "lng": 62.5
+            },
+            "id": "Id_Spawner_Props_ChestLarge_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 275.18,
+                "lng": 128.39
+            },
+            "id": "Id_Spawner_Monster_FrostSkeletonArcher"
+        },
+        {
+            "coordinates": {
+                "lat": 300.18,
+                "lng": 99.11
+            },
+            "id": "Id_Spawner_Monster_FrostSkeletonHalberdier_Medium"
+        },
+        {
+            "coordinates": {
+                "lat": 334.51,
+                "lng": 36.44
+            },
+            "id": "Id_Spawner_Props_ChestLarge_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 363.43,
+                "lng": 64.29
+            },
+            "id": "Id_Spawner_Props_ChestLarge_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 335.71,
+                "lng": 45.54
+            },
+            "id": "Id_Spawner_Monster_FrostSkeletonAxeman_Medium"
+        },
+        {
+            "coordinates": {
+                "lat": 353.04,
+                "lng": 68.04
+            },
+            "id": "Id_Spawner_Monster_FrostSkeletonMaceman_Medium"
+        },
+        {
+            "coordinates": {
+                "lat": 266.07,
+                "lng": 85.71
+            },
+            "id": "Id_Spawner_Props_ChestSpecial_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 295.18,
+                "lng": 109.64
+            },
+            "id": "Id_Spawner_Props_ChestMedium_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 316.96,
+                "lng": 98.04
+            },
+            "id": "Id_Spawner_Props_OrnateChestLarge_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 309.0,
+                "lng": 57.46
+            },
+            "id": "Id_Spawner_Monster_FrostSkeletonAxeman_Medium"
+        },
+        {
+            "coordinates": {
+                "lat": 296.32,
+                "lng": 69.82
+            },
+            "id": "Id_Spawner_Monster_FrostSkeletonAxeman_Medium"
+        },
+        {
+            "coordinates": {
+                "lat": 355.39,
+                "lng": 127.86
+            },
+            "id": "Id_Spawner_Monster_FrostSkeletonMaceman_Medium"
+        },
+        {
+            "coordinates": {
+                "lat": 342.57,
+                "lng": 47.57
+            },
+            "id": "Id_Spawner_LootDrop_Ground_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 332.21,
+                "lng": 53.64
+            },
+            "id": "Id_Spawner_LootDrop_Ground_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 353.64,
+                "lng": 53.64
+            },
+            "id": "Id_Spawner_LootDrop_Ground_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 353.64,
+                "lng": 46.5
+            },
+            "id": "Id_Spawner_LootDrop_Ground_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 358.64,
+                "lng": 71.14
+            },
+            "id": "Id_Spawner_LootDrop_Ground_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 331.86,
+                "lng": 63.29
+            },
+            "id": "Id_Spawner_LootDrop_Ground_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 125.36,
+                "lng": 316.43
+            },
+            "id": "DCPlayerStart_1"
+        },
+        {
+            "coordinates": {
+                "lat": 200.04,
+                "lng": 40.79
+            },
+            "id": "DCPlayerStart_0"
+        },
+        {
+            "coordinates": {
+                "lat": 194.68,
+                "lng": 114.0
+            },
+            "id": "BP_FixedStairEscape"
+        },
+        {
+            "coordinates": {
+                "lat": 195.07,
+                "lng": 114.32
+            },
+            "id": "BP_RopeBase"
+        },
+        {
+            "coordinates": {
+                "lat": 212.11,
+                "lng": 80.21
+            },
+            "id": "Id_Spawner_Props_FloorLever_OnlyActivate"
+        },
+        {
+            "coordinates": {
+                "lat": 252.57,
+                "lng": 77.07
+            },
+            "id": "Id_Spawner_Props_FloorLever_OnlyActivate"
+        },
+        {
+            "coordinates": {
+                "lat": 176.18,
+                "lng": 79.75
+            },
+            "id": "Id_Spawner_Props_FloorLever_OnlyActivate"
+        },
+        {
+            "coordinates": {
+                "lat": 361.5,
+                "lng": 204.86
+            },
+            "id": "DCPlayerStart_1"
+        },
+        {
+            "coordinates": {
+                "lat": 326.07,
+                "lng": 199.57
+            },
+            "id": "BP_PedestalPortal"
+        },
+        {
+            "coordinates": {
+                "lat": 316.57,
+                "lng": 199.93
+            },
+            "id": "Id_Spawner_Props_WallSpike"
+        },
+        {
+            "coordinates": {
+                "lat": 316.57,
+                "lng": 198.14
+            },
+            "id": "Id_Spawner_Props_WallSpike"
+        },
+        {
+            "coordinates": {
+                "lat": 316.57,
+                "lng": 196.29
+            },
+            "id": "Id_Spawner_Props_WallSpike"
+        },
+        {
+            "coordinates": {
+                "lat": 316.57,
+                "lng": 194.57
+            },
+            "id": "Id_Spawner_Props_WallSpike"
+        },
+        {
+            "coordinates": {
+                "lat": 316.57,
+                "lng": 192.79
+            },
+            "id": "Id_Spawner_Props_WallSpike"
+        },
+        {
+            "coordinates": {
+                "lat": 316.57,
+                "lng": 191.04
+            },
+            "id": "Id_Spawner_Props_WallSpike"
+        },
+        {
+            "coordinates": {
+                "lat": 286.29,
+                "lng": 182.39
+            },
+            "id": "Id_Spawner_Props_WallLever_OnlyActivate"
+        },
+        {
+            "coordinates": {
+                "lat": 286.63,
+                "lng": 217.56
+            },
+            "id": "Id_Spawner_Props_WallLever_OnlyActivate"
+        },
+        {
+            "coordinates": {
+                "lat": 316.57,
+                "lng": 202.21
+            },
+            "id": "Id_Spawner_Props_WallSpike"
+        },
+        {
+            "coordinates": {
+                "lat": 316.57,
+                "lng": 204.54
+            },
+            "id": "Id_Spawner_Props_WallSpike"
+        },
+        {
+            "coordinates": {
+                "lat": 316.57,
+                "lng": 206.82
+            },
+            "id": "Id_Spawner_Props_WallSpike"
+        },
+        {
+            "coordinates": {
+                "lat": 316.57,
+                "lng": 209.07
+            },
+            "id": "Id_Spawner_Props_WallSpike"
+        },
+        {
+            "coordinates": {
+                "lat": 316.57,
+                "lng": 189.43
+            },
+            "id": "Id_Spawner_Props_WallSpike"
+        },
+        {
+            "coordinates": {
+                "lat": 316.57,
+                "lng": 187.54
+            },
+            "id": "Id_Spawner_Props_WallSpike"
+        },
+        {
+            "coordinates": {
+                "lat": 364.0,
+                "lng": 246.04
+            },
+            "id": "Id_Spawner_Props_WallLever_OnlyActivate"
+        },
+        {
+            "coordinates": {
+                "lat": 363.93,
+                "lng": 182.64
+            },
+            "id": "Id_Spawner_Props_WallLever_OnlyActivate"
+        },
+        {
+            "coordinates": {
+                "lat": 359.07,
+                "lng": 361.07
+            },
+            "id": "DCPlayerStart_1"
+        },
+        {
+            "coordinates": {
+                "lat": 244.79,
+                "lng": 363.75
+            },
+            "id": "DCPlayerStart_0"
+        },
+        {
+            "coordinates": {
+                "lat": 155.0,
+                "lng": 362.32
+            },
+            "id": "DCPlayerStart_1"
+        },
+        {
+            "coordinates": {
+                "lat": 180.46,
+                "lng": 283.82
+            },
+            "id": "BP_FixedStairEscape"
+        },
+        {
+            "coordinates": {
+                "lat": 179.57,
+                "lng": 281.14
+            },
+            "id": "BP_RopeBase"
+        },
+        {
+            "coordinates": {
+                "lat": 56.96,
+                "lng": 343.21
+            },
+            "id": "Id_Spawner_Props_Statue01"
+        },
+        {
+            "coordinates": {
+                "lat": 100.54,
+                "lng": 299.42
+            },
+            "id": "Id_Spawner_Props_ChestSpecial_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 42.68,
+                "lng": 298.88
+            },
+            "id": "Id_Spawner_Props_ChestLarge_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 86.07,
+                "lng": 342.55
+            },
+            "id": "Id_Spawner_Props_FloorSpikes"
+        },
+        {
+            "coordinates": {
+                "lat": 93.75,
+                "lng": 305.23
+            },
+            "id": "Id_Spawner_Monster_IceHound_Medium"
+        },
+        {
+            "coordinates": {
+                "lat": 114.29,
+                "lng": 345.31
+            },
+            "id": "Id_Spawner_Props_ChestLarge_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 77.32,
+                "lng": 302.73
+            },
+            "id": "Id_Spawner_Props_ChestSpecial_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 43.08,
+                "lng": 273.21
+            },
+            "id": "Id_Spawner_Props_ChestLarge_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 45.71,
+                "lng": 354.29
+            },
+            "id": "Id_Spawner_LootDrop_Gems_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 45.71,
+                "lng": 331.43
+            },
+            "id": "Id_Spawner_LootDrop_Gems_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 69.71,
+                "lng": 357.63
+            },
+            "id": "Id_Spawner_LootDrop_Gems_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 68.57,
+                "lng": 326.83
+            },
+            "id": "Id_Spawner_LootDrop_Gems_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 111.01,
+                "lng": 294.77
+            },
+            "id": "Id_Spawner_Monster_IceHound_Medium"
+        },
+        {
+            "coordinates": {
+                "lat": 67.86,
+                "lng": 275.59
+            },
+            "id": "Id_Spawner_Monster_FrostSkeletonMaceman_Medium"
+        },
+        {
+            "coordinates": {
+                "lat": 67.86,
+                "lng": 296.84
+            },
+            "id": "Id_Spawner_Monster_FrostSkeletonFootmanFromFakeDeath_Medium"
+        },
+        {
+            "coordinates": {
+                "lat": 95.0,
+                "lng": 356.07
+            },
+            "id": "Id_Spawner_Monster_IceHarpy_Medium"
+        },
+        {
+            "coordinates": {
+                "lat": 83.21,
+                "lng": 285.49
+            },
+            "id": "Id_Spawner_Monster_FrostSentinel_Medium"
+        },
+        {
+            "coordinates": {
+                "lat": 88.75,
+                "lng": 286.66
+            },
+            "id": "Id_Spawner_Monster_IceHound_Medium"
+        },
+        {
+            "coordinates": {
+                "lat": 91.04,
+                "lng": 309.64
+            },
+            "id": "Id_Spawner_Monster_IceGiantSpider_Medium"
+        },
+        {
+            "coordinates": {
+                "lat": 126.61,
+                "lng": 299.42
+            },
+            "id": "Id_Spawner_Props_ChestLarge_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 101.25,
+                "lng": 273.7
+            },
+            "id": "Id_Spawner_Props_ChestLarge_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 49.33,
+                "lng": 351.01
+            },
+            "id": "Id_Spawner_Monster_FrostImp_Medium"
+        },
+        {
+            "coordinates": {
+                "lat": 75.71,
+                "lng": 328.21
+            },
+            "id": "Id_Spawner_Monster_IceHarpy_Medium"
+        },
+        {
+            "coordinates": {
+                "lat": 124.25,
+                "lng": 352.66
+            },
+            "id": "Id_Spawner_Monster_FrostImp_Medium"
+        },
+        {
+            "coordinates": {
+                "lat": 82.32,
+                "lng": 285.49
+            },
+            "id": "Id_Spawner_Props_OrnateChestLarge_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 114.29,
+                "lng": 341.2
+            },
+            "id": "Id_Spawner_Props_ChestLarge_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 335.79,
+                "lng": 193.79
+            },
+            "id": "Id_Spawner_Monster_FrostSkeletonMaceman_Medium"
+        },
+        {
+            "coordinates": {
+                "lat": 322.29,
+                "lng": 200.71
+            },
+            "id": "Id_Spawner_Monster_FrostImp_Medium"
+        },
+        {
+            "coordinates": {
+                "lat": 325.82,
+                "lng": 182.86
+            },
+            "id": "Id_Spawner_Monster_IceSpider_Medium"
+        },
+        {
+            "coordinates": {
+                "lat": 313.18,
+                "lng": 251.86
+            },
+            "id": "Id_Spawner_Monster_FrostSentinel_Medium"
+        },
+        {
+            "coordinates": {
+                "lat": 319.29,
+                "lng": 152.75
+            },
+            "id": "Id_Spawner_Monster_FrostSkeletonAxeman_Medium"
+        },
+        {
+            "coordinates": {
+                "lat": 314.39,
+                "lng": 148.11
+            },
+            "id": "Id_Spawner_Monster_FrostSentinel_Medium"
+        },
+        {
+            "coordinates": {
+                "lat": 307.0,
+                "lng": 198.32
+            },
+            "id": "Id_Spawner_Monster_IceSpider_Medium"
+        },
+        {
+            "coordinates": {
+                "lat": 328.82,
+                "lng": 217.57
+            },
+            "id": "Id_Spawner_Monster_IceSpider_Medium"
+        },
+        {
+            "coordinates": {
+                "lat": 317.14,
+                "lng": 207.0
+            },
+            "id": "Id_Spawner_Monster_FrostSkeletonGuardmanFromFakeDeath_Medium"
+        },
+        {
+            "coordinates": {
+                "lat": 317.46,
+                "lng": 191.46
+            },
+            "id": "Id_Spawner_Monster_FrostSkeletonGuardmanFromFakeDeath_Medium"
+        },
+        {
+            "coordinates": {
+                "lat": 320.71,
+                "lng": 201.07
+            },
+            "id": "Id_Spawner_Monster_IceGiantSpider_Medium"
+        },
+        {
+            "coordinates": {
+                "lat": 321.21,
+                "lng": 248.68
+            },
+            "id": "Id_Spawner_Monster_FrostSkeletonHalberdier_Medium"
+        },
+        {
+            "coordinates": {
+                "lat": 287.82,
+                "lng": 206.75
+            },
+            "id": "Id_Spawner_Monster_FrostSkeletonGuardmanFromFakeDeath_Medium"
+        },
+        {
+            "coordinates": {
+                "lat": 328.79,
+                "lng": 200.79
+            },
+            "id": "Id_Spawner_Monster_IceHarpy_Medium"
+        },
+        {
+            "coordinates": {
+                "lat": 284.07,
+                "lng": 199.29
+            },
+            "id": "Id_Spawner_Monster_FrostSentinel_Medium"
+        },
+        {
+            "coordinates": {
+                "lat": 335.46,
+                "lng": 206.93
+            },
+            "id": "Id_Spawner_Monster_FrostSkeletonMaceman_Medium"
+        },
+        {
+            "coordinates": {
+                "lat": 286.64,
+                "lng": 192.36
+            },
+            "id": "Id_Spawner_Monster_FrostSkeletonGuardmanFromFakeDeath_Medium"
+        },
+        {
+            "coordinates": {
+                "lat": 342.86,
+                "lng": 198.39
+            },
+            "id": "Id_Spawner_Monster_IceSpider_Medium"
+        },
+        {
+            "coordinates": {
+                "lat": 293.32,
+                "lng": 148.75
+            },
+            "id": "Id_Spawner_Props_ChestSmall_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 321.11,
+                "lng": 194.79
+            },
+            "id": "Id_Spawner_Props_ChestMedium_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 314.29,
+                "lng": 148.93
+            },
+            "id": "Id_Spawner_Props_SimpleChestLarge_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 313.15,
+                "lng": 248.68
+            },
+            "id": "Id_Spawner_Props_SimpleChestLarge_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 365.43,
+                "lng": 222.82
+            },
+            "id": "Id_Spawner_Props_ChestMedium_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 352.3,
+                "lng": 148.57
+            },
+            "id": "Id_Spawner_Props_ChestSmall_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 291.44,
+                "lng": 248.86
+            },
+            "id": "Id_Spawner_Props_ChestSmall_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 331.18,
+                "lng": 194.57
+            },
+            "id": "Id_Spawner_Props_ChestMedium_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 326.04,
+                "lng": 200.75
+            },
+            "id": "Id_Spawner_Props_ChestSpecial_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 321.07,
+                "lng": 206.0
+            },
+            "id": "Id_Spawner_Props_ChestMedium_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 331.36,
+                "lng": 205.82
+            },
+            "id": "Id_Spawner_Props_ChestMedium_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 284.1,
+                "lng": 238.18
+            },
+            "id": "Id_Spawner_Props_ChestSmall_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 363.07,
+                "lng": 192.69
+            },
+            "id": "Id_Spawner_Props_ChestSmall_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 352.0,
+                "lng": 252.01
+            },
+            "id": "Id_Spawner_Props_ChestSmall_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 366.0,
+                "lng": 162.44
+            },
+            "id": "Id_Spawner_Props_ChestSmall_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 283.84,
+                "lng": 163.9
+            },
+            "id": "Id_Spawner_Props_ChestSmall_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 276.93,
+                "lng": 200.0
+            },
+            "id": "Id_Spawner_Props_AltarOfSacrifice"
+        },
+        {
+            "coordinates": {
+                "lat": 123.96,
+                "lng": 81.43
+            },
+            "id": "Id_Spawner_Monster_IceGiantSpider_Medium"
+        },
+        {
+            "coordinates": {
+                "lat": 90.96,
+                "lng": 122.11
+            },
+            "id": "Id_Spawner_Monster_IceGiantSpider_Medium"
+        },
+        {
+            "coordinates": {
+                "lat": 48.11,
+                "lng": 87.93
+            },
+            "id": "Id_Spawner_Monster_IceGiantSpider_Medium"
+        },
+        {
+            "coordinates": {
+                "lat": 85.21,
+                "lng": 86.25
+            },
+            "id": "Id_Spawner_Monster_Wendigo_Elite"
+        },
+        {
+            "coordinates": {
+                "lat": 89.93,
+                "lng": 48.25
+            },
+            "id": "Id_Spawner_Monster_IceGiantSpider_Medium"
+        },
+        {
+            "coordinates": {
+                "lat": 68.86,
+                "lng": 103.18
+            },
+            "id": "Id_Spawner_Monster_FrostSkeletonArcher_Medium"
+        },
+        {
+            "coordinates": {
+                "lat": 101.96,
+                "lng": 101.61
+            },
+            "id": "Id_Spawner_Monster_FrostSkeletonArcher_Medium"
+        },
+        {
+            "coordinates": {
+                "lat": 68.39,
+                "lng": 71.14
+            },
+            "id": "Id_Spawner_Monster_FrostSkeletonAxeman_Medium"
+        },
+        {
+            "coordinates": {
+                "lat": 56.32,
+                "lng": 113.07
+            },
+            "id": "Id_Spawner_Monster_FrostSkeletonFootmanFromFakeDeath_Easy"
+        },
+        {
+            "coordinates": {
+                "lat": 115.79,
+                "lng": 55.04
+            },
+            "id": "Id_Spawner_Monster_FrostSkeletonAxeman_Medium"
+        },
+        {
+            "coordinates": {
+                "lat": 114.36,
+                "lng": 116.07
+            },
+            "id": "Id_Spawner_Monster_FrostSkeletonFootmanFromFakeDeath_Easy"
+        },
+        {
+            "coordinates": {
+                "lat": 100.86,
+                "lng": 70.11
+            },
+            "id": "Id_Spawner_Monster_FrostSkeletonArcher_Medium"
+        },
+        {
+            "coordinates": {
+                "lat": 111.57,
+                "lng": 69.93
+            },
+            "id": "Id_Spawner_Props_ChestSmall_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 86.43,
+                "lng": 76.68
+            },
+            "id": "Id_Spawner_Props_ChestSpecial_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 111.57,
+                "lng": 101.5
+            },
+            "id": "Id_Spawner_Props_ChestSmall_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 46.61,
+                "lng": 85.57
+            },
+            "id": "Id_Spawner_Props_ChestMedium_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 101.77,
+                "lng": 111.79
+            },
+            "id": "Id_Spawner_Props_ChestSmall_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 69.62,
+                "lng": 111.79
+            },
+            "id": "Id_Spawner_Props_ChestSmall_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 85.18,
+                "lng": 126.0
+            },
+            "id": "Id_Spawner_Props_ChestMedium_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 123.82,
+                "lng": 85.96
+            },
+            "id": "Id_Spawner_Props_ChestMedium_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 85.68,
+                "lng": 47.46
+            },
+            "id": "Id_Spawner_Props_ChestMedium_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 91.0,
+                "lng": 85.96
+            },
+            "id": "Id_Spawner_Props_FlatChestLarge_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 80.46,
+                "lng": 85.96
+            },
+            "id": "Id_Spawner_Props_FlatChestLarge_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 85.92,
+                "lng": 80.5
+            },
+            "id": "Id_Spawner_Props_FlatChestLarge_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 85.92,
+                "lng": 91.07
+            },
+            "id": "Id_Spawner_Props_FlatChestLarge_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 59.87,
+                "lng": 69.82
+            },
+            "id": "Id_Spawner_Props_ChestSmall_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 59.97,
+                "lng": 102.63
+            },
+            "id": "Id_Spawner_Props_ChestSmall_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 68.07,
+                "lng": 59.88
+            },
+            "id": "Id_Spawner_Props_ChestSmall_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 102.65,
+                "lng": 60.22
+            },
+            "id": "Id_Spawner_Props_ChestSmall_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 76.47,
+                "lng": 102.71
+            },
+            "id": "Id_Spawner_Props_ChestSmall_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 149.52,
+                "lng": 35.14
+            },
+            "id": "BP_Statue02_0"
+        },
+        {
+            "coordinates": {
+                "lat": 213.64,
+                "lng": 78.07
+            },
+            "id": "Id_Spawner_Props_Pot02_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 212.61,
+                "lng": 82.64
+            },
+            "id": "Id_Spawner_Props_Pot02_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 198.93,
+                "lng": 93.07
+            },
+            "id": "Id_Spawner_Monster_Wendigo_Elite"
+        },
+        {
+            "coordinates": {
+                "lat": 250.46,
+                "lng": 77.86
+            },
+            "id": "Id_Spawner_Props_Pot02_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 251.0,
+                "lng": 75.43
+            },
+            "id": "Id_Spawner_Props_Pot03_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 250.21,
+                "lng": 73.11
+            },
+            "id": "Id_Spawner_Props_Pot02_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 174.64,
+                "lng": 77.79
+            },
+            "id": "Id_Spawner_Props_Pot02_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 175.68,
+                "lng": 75.57
+            },
+            "id": "Id_Spawner_Props_Pot03_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 173.93,
+                "lng": 80.36
+            },
+            "id": "Id_Spawner_Props_Pot02_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 193.89,
+                "lng": 97.04
+            },
+            "id": "Id_Spawner_Monster_FrostDemon"
+        },
+        {
+            "coordinates": {
+                "lat": 214.21,
+                "lng": 80.5
+            },
+            "id": "Id_Spawner_Props_Pot03_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 245.14,
+                "lng": 73.46
+            },
+            "id": "Id_Spawner_Monster_FrozenGhost_Medium"
+        },
+        {
+            "coordinates": {
+                "lat": 183.18,
+                "lng": 91.82
+            },
+            "id": "Id_Spawner_Monster_FrostSkeletonGuardmanFromFakeDeath_Medium"
+        },
+        {
+            "coordinates": {
+                "lat": 194.25,
+                "lng": 102.25
+            },
+            "id": "Id_Spawner_Monster_FrostSkeletonGuardmanFromFakeDeath_Medium"
+        },
+        {
+            "coordinates": {
+                "lat": 194.25,
+                "lng": 83.57
+            },
+            "id": "Id_Spawner_Monster_FrostSkeletonGuardmanFromFakeDeath_Medium"
+        },
+        {
+            "coordinates": {
+                "lat": 220.32,
+                "lng": 85.14
+            },
+            "id": "Id_Spawner_Monster_IceSpider_Medium"
+        },
+        {
+            "coordinates": {
+                "lat": 154.79,
+                "lng": 38.39
+            },
+            "id": "Id_Spawner_Monster_FrostSkeletonHalberdier_Medium"
+        },
+        {
+            "coordinates": {
+                "lat": 228.0,
+                "lng": 106.96
+            },
+            "id": "Id_Spawner_Monster_FrostSkeletonAxeman_Medium"
+        },
+        {
+            "coordinates": {
+                "lat": 152.0,
+                "lng": 93.14
+            },
+            "id": "Id_Spawner_Monster_FrostSkeletonAxeman_Medium"
+        },
+        {
+            "coordinates": {
+                "lat": 239.04,
+                "lng": 68.14
+            },
+            "id": "Id_Spawner_Monster_IceSpider_Medium"
+        },
+        {
+            "coordinates": {
+                "lat": 212.32,
+                "lng": 63.5
+            },
+            "id": "Id_Spawner_Monster_IceSpider_Medium"
+        },
+        {
+            "coordinates": {
+                "lat": 248.96,
+                "lng": 36.75
+            },
+            "id": "Id_Spawner_Monster_FrostSkeletonHalberdier_Medium"
+        },
+        {
+            "coordinates": {
+                "lat": 203.82,
+                "lng": 91.82
+            },
+            "id": "Id_Spawner_Monster_FrostSkeletonGuardmanFromFakeDeath_Medium"
+        },
+        {
+            "coordinates": {
+                "lat": 157.04,
+                "lng": 78.71
+            },
+            "id": "Id_Spawner_Monster_IceSpider_Medium"
+        },
+        {
+            "coordinates": {
+                "lat": 149.46,
+                "lng": 74.04
+            },
+            "id": "Id_Spawner_Props_ChestLarge_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 214.5,
+                "lng": 53.61
+            },
+            "id": "Id_Spawner_Props_ChestSmall_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 199.75,
+                "lng": 53.61
+            },
+            "id": "Id_Spawner_Props_ChestSmall_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 191.61,
+                "lng": 92.75
+            },
+            "id": "Id_Spawner_Props_ChestSpecial_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 178.86,
+                "lng": 53.61
+            },
+            "id": "Id_Spawner_Props_ChestSmall_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 151.03,
+                "lng": 87.45
+            },
+            "id": "Id_Spawner_Props_ChestSmall_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 251.89,
+                "lng": 102.85
+            },
+            "id": "Id_Spawner_Props_ChestSmall_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 149.18,
+                "lng": 41.5
+            },
+            "id": "Id_Spawner_Props_ChestMedium_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 209.21,
+                "lng": 79.6
+            },
+            "id": "Id_Spawner_Props_ChestMedium_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 228.79,
+                "lng": 105.54
+            },
+            "id": "Id_Spawner_Props_ChestLarge_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 209.21,
+                "lng": 91.82
+            },
+            "id": "Id_Spawner_Props_ChestMedium_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 185.53,
+                "lng": 76.92
+            },
+            "id": "Id_Spawner_Props_ChestSpecial_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 251.58,
+                "lng": 70.52
+            },
+            "id": "Id_Spawner_Props_ChestSmall_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 215.16,
+                "lng": 34.73
+            },
+            "id": "Id_Spawner_Props_ChestSmall_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 184.91,
+                "lng": 33.81
+            },
+            "id": "Id_Spawner_Props_ChestSmall_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 250.99,
+                "lng": 47.79
+            },
+            "id": "Id_Spawner_Props_ChestSmall_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 160.23,
+                "lng": 34.06
+            },
+            "id": "Id_Spawner_Props_ChestSmall_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 238.92,
+                "lng": 34.18
+            },
+            "id": "Id_Spawner_Props_ChestSmall_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 251.58,
+                "lng": 79.91
+            },
+            "id": "Id_Spawner_Props_ChestSmall_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 215.96,
+                "lng": 332.14
+            },
+            "id": "Id_Spawner_Monster_FrostSkeletonAxeman_Medium"
+        },
+        {
+            "coordinates": {
+                "lat": 178.07,
+                "lng": 313.86
+            },
+            "id": "Id_Spawner_Monster_FrostSkeletonCrossbowman_Easy"
+        },
+        {
+            "coordinates": {
+                "lat": 176.89,
+                "lng": 308.93
+            },
+            "id": "Id_Spawner_Monster_DeathSkull_Easy"
+        },
+        {
+            "coordinates": {
+                "lat": 210.46,
+                "lng": 285.5
+            },
+            "id": "Id_Spawner_Props_ChestSpecial_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 222.89,
+                "lng": 312.82
+            },
+            "id": "Id_Spawner_Monster_FrostSkeletonCrossbowman_Easy"
+        },
+        {
+            "coordinates": {
+                "lat": 208.04,
+                "lng": 294.0
+            },
+            "id": "Id_Spawner_Monster_IceHound_Medium"
+        },
+        {
+            "coordinates": {
+                "lat": 198.68,
+                "lng": 290.07
+            },
+            "id": "Id_Spawner_Monster_FrostDemon_Elite"
+        },
+        {
+            "coordinates": {
+                "lat": 192.14,
+                "lng": 296.11
+            },
+            "id": "Id_Spawner_Monster_IceHound_Medium"
+        },
+        {
+            "coordinates": {
+                "lat": 200.64,
+                "lng": 303.54
+            },
+            "id": "Id_Spawner_Monster_FrostSkeletonGuardmanFromFakeDeath_Medium"
+        },
+        {
+            "coordinates": {
+                "lat": 200.46,
+                "lng": 310.32
+            },
+            "id": "Id_Spawner_Monster_FrostSkeletonGuardmanFromFakeDeath_Medium"
+        },
+        {
+            "coordinates": {
+                "lat": 205.75,
+                "lng": 308.93
+            },
+            "id": "Id_Spawner_Monster_FrostSkeletonMaceman_Medium"
+        },
+        {
+            "coordinates": {
+                "lat": 199.36,
+                "lng": 332.14
+            },
+            "id": "Id_Spawner_Monster_FrostSkeletonMaceman_Medium"
+        },
+        {
+            "coordinates": {
+                "lat": 246.79,
+                "lng": 317.07
+            },
+            "id": "Id_Spawner_Monster_FrostSkeletonFootmanFromFakeDeath_Easy"
+        },
+        {
+            "coordinates": {
+                "lat": 150.48,
+                "lng": 319.0
+            },
+            "id": "Id_Spawner_Monster_FrostSkeletonHalberdier_Medium"
+        },
+        {
+            "coordinates": {
+                "lat": 244.29,
+                "lng": 309.39
+            },
+            "id": "Id_Spawner_Monster_FrostSkeletonMaceman_Medium"
+        },
+        {
+            "coordinates": {
+                "lat": 200.61,
+                "lng": 287.61
+            },
+            "id": "Id_Spawner_Monster_IceGiantSpider_Medium"
+        },
+        {
+            "coordinates": {
+                "lat": 154.05,
+                "lng": 311.46
+            },
+            "id": "Id_Spawner_Monster_FrostSkeletonHalberdier_Medium"
+        },
+        {
+            "coordinates": {
+                "lat": 179.68,
+                "lng": 332.14
+            },
+            "id": "Id_Spawner_Monster_FrostSkeletonHalberdier_Medium"
+        },
+        {
+            "coordinates": {
+                "lat": 195.54,
+                "lng": 308.0
+            },
+            "id": "Id_Spawner_Monster_FrostSkeletonMaceman_Medium"
+        },
+        {
+            "coordinates": {
+                "lat": 219.54,
+                "lng": 308.93
+            },
+            "id": "Id_Spawner_Monster_DeathSkull_Easy"
+        },
+        {
+            "coordinates": {
+                "lat": 181.96,
+                "lng": 290.46
+            },
+            "id": "Id_Spawner_Props_ChestSmall_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 169.46,
+                "lng": 308.4
+            },
+            "id": "Id_Spawner_Props_SimpleChestLarge_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 182.1,
+                "lng": 354.11
+            },
+            "id": "Id_Spawner_Props_ChestMedium_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 252.04,
+                "lng": 316.95
+            },
+            "id": "Id_Spawner_Props_ChestSmall_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 147.78,
+                "lng": 294.94
+            },
+            "id": "Id_Spawner_Props_ChestSmall_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 251.68,
+                "lng": 327.82
+            },
+            "id": "Id_Spawner_Props_ChestMedium_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 200.25,
+                "lng": 317.15
+            },
+            "id": "Id_Spawner_Props_ChestSpecial_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 230.57,
+                "lng": 307.11
+            },
+            "id": "Id_Spawner_Props_ChestMedium_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 230.64,
+                "lng": 317.96
+            },
+            "id": "Id_Spawner_Props_ChestMedium_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 167.82,
+                "lng": 307.54
+            },
+            "id": "Id_Spawner_Props_ChestMedium_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 230.25,
+                "lng": 308.4
+            },
+            "id": "Id_Spawner_Props_FlatChestLarge_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 218.38,
+                "lng": 291.16
+            },
+            "id": "Id_Spawner_Props_ChestSmall_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 163.72,
+                "lng": 285.7
+            },
+            "id": "Id_Spawner_Props_ChestSmall_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 170.68,
+                "lng": 327.38
+            },
+            "id": "Id_Spawner_Props_ChestSmall_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 213.92,
+                "lng": 350.46
+            },
+            "id": "Id_Spawner_Props_ChestSmall_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 149.35,
+                "lng": 360.01
+            },
+            "id": "Id_Spawner_Props_ChestSmall_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 241.88,
+                "lng": 366.0
+            },
+            "id": "Id_Spawner_Props_ChestSmall_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 177.33,
+                "lng": 347.17
+            },
+            "id": "Id_Spawner_Props_ChestSmall_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 182.54,
+                "lng": 315.2
+            },
+            "id": "Id_Spawner_Props_ChestSmall_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 220.29,
+                "lng": 327.38
+            },
+            "id": "Id_Spawner_Props_ChestSmall_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 200.02,
+                "lng": 277.07
+            },
+            "id": "Id_Spawner_Props_AltarOfSacrifice"
+        },
+        {
+            "coordinates": {
+                "lat": 200.0,
+                "lng": 366.21
+            },
+            "id": "Id_Spawner_Props_Statue01"
+        },
+        {
+            "coordinates": {
+                "lat": 200.0,
+                "lng": 200.0
+            },
+            "id": "BP_DungeonEscapeBoss"
+        },
+        {
+            "coordinates": {
+                "lat": 266.14,
+                "lng": 191.11
+            },
+            "id": "Id_Spawner_Monster_IceHarpy_Medium"
+        },
+        {
+            "coordinates": {
+                "lat": 200.0,
+                "lng": 200.0
+            },
+            "id": "Id_Spawner_Monster_FrostWyvern"
+        },
+        {
+            "coordinates": {
+                "lat": 136.99,
+                "lng": 202.83
+            },
+            "id": "Id_Spawner_Monster_IceHarpy_Medium"
+        },
+        {
+            "coordinates": {
+                "lat": 149.83,
+                "lng": 218.67
+            },
+            "id": "Id_Spawner_Props_BossReward_IcePillarDoor"
+        },
+        {
+            "coordinates": {
+                "lat": 154.29,
+                "lng": 206.07
+            },
+            "id": "Id_Spawner_Props_Ore_FrostStoneOre_N"
+        },
+        {
+            "coordinates": {
+                "lat": 162.69,
+                "lng": 208.74
+            },
+            "id": "Id_Spawner_Props_Hoard01_10_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 164.64,
+                "lng": 213.21
+            },
+            "id": "Id_Spawner_Props_MarvelousChest_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 160.36,
+                "lng": 218.93
+            },
+            "id": "Id_Spawner_Props_Ore_FrostStoneOre_N"
+        },
+        {
+            "coordinates": {
+                "lat": 157.5,
+                "lng": 214.64
+            },
+            "id": "Id_Spawner_LootDrop_Ground_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 39.39,
+                "lng": 199.32
+            },
+            "id": "DCPlayerStart_0"
+        },
+        {
+            "coordinates": {
+                "lat": 92.82,
+                "lng": 211.14
+            },
+            "id": "BP_PedestalPortal"
+        },
+        {
+            "coordinates": {
+                "lat": 68.1,
+                "lng": 212.87
+            },
+            "id": "Id_Spawner_Props_WallLever_OnlyActivate"
+        },
+        {
+            "coordinates": {
+                "lat": 277.57,
+                "lng": 257.86
+            },
+            "id": "Id_Spawner_Monster_IceGiantSpider_Medium"
+        },
+        {
+            "coordinates": {
+                "lat": 363.96,
+                "lng": 256.0
+            },
+            "id": "Id_Spawner_Monster_IceGiantSpider_Medium"
+        },
+        {
+            "coordinates": {
+                "lat": 294.5,
+                "lng": 313.36
+            },
+            "id": "Id_Spawner_Monster_FrostSkeletonAxeman_Medium"
+        },
+        {
+            "coordinates": {
+                "lat": 335.36,
+                "lng": 313.36
+            },
+            "id": "Id_Spawner_Monster_FrostSkeletonAxeman_Medium"
+        },
+        {
+            "coordinates": {
+                "lat": 288.21,
+                "lng": 313.21
+            },
+            "id": "Id_Spawner_Monster_IceGiantSpider_Medium"
+        },
+        {
+            "coordinates": {
+                "lat": 362.07,
+                "lng": 265.75
+            },
+            "id": "Id_Spawner_Monster_FrostSkeletonArcher_Medium"
+        },
+        {
+            "coordinates": {
+                "lat": 358.43,
+                "lng": 269.18
+            },
+            "id": "Id_Spawner_Monster_FrostSkeletonMaceman_Medium"
+        },
+        {
+            "coordinates": {
+                "lat": 307.04,
+                "lng": 281.14
+            },
+            "id": "Id_Spawner_Monster_IceGiantSpider_Medium"
+        },
+        {
+            "coordinates": {
+                "lat": 267.68,
+                "lng": 356.11
+            },
+            "id": "Id_Spawner_Monster_FrostSkeletonHalberdier_Medium"
+        },
+        {
+            "coordinates": {
+                "lat": 339.64,
+                "lng": 313.21
+            },
+            "id": "Id_Spawner_Monster_IceGiantSpider_Medium"
+        },
+        {
+            "coordinates": {
+                "lat": 315.25,
+                "lng": 339.57
+            },
+            "id": "Id_Spawner_Monster_FrostSentinel_Medium"
+        },
+        {
+            "coordinates": {
+                "lat": 272.07,
+                "lng": 323.57
+            },
+            "id": "Id_Spawner_Monster_FrostSentinel_Medium"
+        },
+        {
+            "coordinates": {
+                "lat": 348.29,
+                "lng": 259.71
+            },
+            "id": "Id_Spawner_Monster_IceGiantSpider_Medium"
+        },
+        {
+            "coordinates": {
+                "lat": 314.79,
+                "lng": 313.75
+            },
+            "id": "Id_Spawner_Monster_Wendigo_Elite"
+        },
+        {
+            "coordinates": {
+                "lat": 283.96,
+                "lng": 314.25
+            },
+            "id": "Id_Spawner_Monster_IceGiantSpider_Medium"
+        },
+        {
+            "coordinates": {
+                "lat": 354.68,
+                "lng": 345.11
+            },
+            "id": "Id_Spawner_Monster_FrostWalker_Easy"
+        },
+        {
+            "coordinates": {
+                "lat": 338.04,
+                "lng": 321.57
+            },
+            "id": "Id_Spawner_Monster_FrozenGhost_Medium"
+        },
+        {
+            "coordinates": {
+                "lat": 272.61,
+                "lng": 360.43
+            },
+            "id": "Id_Spawner_Monster_FrostSkeletonHalberdier_Medium"
+        },
+        {
+            "coordinates": {
+                "lat": 352.04,
+                "lng": 287.25
+            },
+            "id": "Id_Spawner_Monster_FrostWalker_Easy"
+        },
+        {
+            "coordinates": {
+                "lat": 275.07,
+                "lng": 289.21
+            },
+            "id": "Id_Spawner_Monster_FrozenGhost_Medium"
+        },
+        {
+            "coordinates": {
+                "lat": 261.04,
+                "lng": 342.71
+            },
+            "id": "Id_Spawner_Monster_IceGiantSpider_Medium"
+        },
+        {
+            "coordinates": {
+                "lat": 274.18,
+                "lng": 344.57
+            },
+            "id": "Id_Spawner_Monster_FrostWalker_Easy"
+        },
+        {
+            "coordinates": {
+                "lat": 272.32,
+                "lng": 340.68
+            },
+            "id": "Id_Spawner_Props_ChestSmall_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 314.29,
+                "lng": 323.0
+            },
+            "id": "Id_Spawner_Props_ChestSpecial_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 314.29,
+                "lng": 305.72
+            },
+            "id": "Id_Spawner_Props_ChestMedium_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 271.75,
+                "lng": 286.21
+            },
+            "id": "Id_Spawner_Props_ChestSmall_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 365.54,
+                "lng": 268.54
+            },
+            "id": "Id_Spawner_Props_ChestMedium_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 276.09,
+                "lng": 282.36
+            },
+            "id": "Id_Spawner_Props_ChestSmall_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 278.27,
+                "lng": 346.61
+            },
+            "id": "Id_Spawner_Props_ChestSmall_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 360.04,
+                "lng": 262.61
+            },
+            "id": "Id_Spawner_Props_ChestMedium_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 262.97,
+                "lng": 361.18
+            },
+            "id": "Id_Spawner_Props_ChestMedium_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 267.89,
+                "lng": 365.79
+            },
+            "id": "Id_Spawner_Props_ChestMedium_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 314.29,
+                "lng": 314.29
+            },
+            "id": "Id_Spawner_Props_ChestSpecial_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 355.7,
+                "lng": 341.14
+            },
+            "id": "Id_Spawner_Props_ChestSmall_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 356.68,
+                "lng": 286.58
+            },
+            "id": "Id_Spawner_Props_ChestSmall_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 348.35,
+                "lng": 345.9
+            },
+            "id": "Id_Spawner_Props_ChestSmall_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 273.03,
+                "lng": 365.71
+            },
+            "id": "Id_Spawner_Props_ChestSmall_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 351.53,
+                "lng": 282.15
+            },
+            "id": "Id_Spawner_Props_ChestSmall_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 35.14,
+                "lng": 250.48
+            },
+            "id": "BP_Statue02_0"
+        },
+        {
+            "coordinates": {
+                "lat": 77.29,
+                "lng": 167.25
+            },
+            "id": "Id_Spawner_Monster_IceGiantSpider_Medium"
+        },
+        {
+            "coordinates": {
+                "lat": 91.04,
+                "lng": 208.0
+            },
+            "id": "Id_Spawner_Monster_FrostImp_Medium"
+        },
+        {
+            "coordinates": {
+                "lat": 62.54,
+                "lng": 222.32
+            },
+            "id": "Id_Spawner_Monster_Wendigo_Elite"
+        },
+        {
+            "coordinates": {
+                "lat": 88.29,
+                "lng": 216.82
+            },
+            "id": "Id_Spawner_Monster_FrostSkeletonGuardmanFromFakeDeath_Medium"
+        },
+        {
+            "coordinates": {
+                "lat": 102.25,
+                "lng": 205.75
+            },
+            "id": "Id_Spawner_Monster_FrostSkeletonGuardmanFromFakeDeath_Medium"
+        },
+        {
+            "coordinates": {
+                "lat": 83.57,
+                "lng": 205.75
+            },
+            "id": "Id_Spawner_Monster_FrostSkeletonGuardmanFromFakeDeath_Medium"
+        },
+        {
+            "coordinates": {
+                "lat": 39.11,
+                "lng": 247.04
+            },
+            "id": "Id_Spawner_Monster_FrostSkeletonAxeman_Medium"
+        },
+        {
+            "coordinates": {
+                "lat": 71.04,
+                "lng": 208.36
+            },
+            "id": "Id_Spawner_Monster_IceGiantSpider_Medium"
+        },
+        {
+            "coordinates": {
+                "lat": 72.79,
+                "lng": 240.71
+            },
+            "id": "Id_Spawner_Monster_IceGiantSpider_Medium"
+        },
+        {
+            "coordinates": {
+                "lat": 88.79,
+                "lng": 154.04
+            },
+            "id": "Id_Spawner_Monster_FrostSkeletonHalberdier_Medium"
+        },
+        {
+            "coordinates": {
+                "lat": 93.14,
+                "lng": 248.89
+            },
+            "id": "Id_Spawner_Monster_FrostSkeletonHalberdier_Medium"
+        },
+        {
+            "coordinates": {
+                "lat": 37.64,
+                "lng": 152.86
+            },
+            "id": "Id_Spawner_Monster_FrostSkeletonMaceman_Medium"
+        },
+        {
+            "coordinates": {
+                "lat": 90.04,
+                "lng": 196.18
+            },
+            "id": "Id_Spawner_Monster_FrostSkeletonGuardmanFromFakeDeath_Medium"
+        },
+        {
+            "coordinates": {
+                "lat": 114.96,
+                "lng": 199.32
+            },
+            "id": "Id_Spawner_Props_ChestSmall_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 63.21,
+                "lng": 189.25
+            },
+            "id": "Id_Spawner_Props_ChestSpecial_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 81.25,
+                "lng": 187.97
+            },
+            "id": "Id_Spawner_Props_ChestMedium_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 49.93,
+                "lng": 195.6
+            },
+            "id": "Id_Spawner_Props_ChestMedium_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 86.48,
+                "lng": 249.22
+            },
+            "id": "Id_Spawner_Props_ChestSmall_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 93.64,
+                "lng": 148.82
+            },
+            "id": "Id_Spawner_Props_ChestSmall_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 42.46,
+                "lng": 250.82
+            },
+            "id": "Id_Spawner_Props_ChestMedium_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 114.64,
+                "lng": 193.78
+            },
+            "id": "Id_Spawner_Props_ChestMedium_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 43.6,
+                "lng": 148.82
+            },
+            "id": "Id_Spawner_Props_ChestMedium_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 74.1,
+                "lng": 218.58
+            },
+            "id": "Id_Spawner_Props_ChestMedium_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 53.9,
+                "lng": 177.32
+            },
+            "id": "Id_Spawner_Props_ChestSmall_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 51.22,
+                "lng": 214.2
+            },
+            "id": "Id_Spawner_Props_ChestSmall_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 34.0,
+                "lng": 243.88
+            },
+            "id": "Id_Spawner_Props_ChestSmall_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 34.22,
+                "lng": 157.79
+            },
+            "id": "Id_Spawner_Props_ChestSmall_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 51.25,
+                "lng": 49.36
+            },
+            "id": "DCPlayerStart_1"
+        },
+        {
+            "coordinates": {
+                "lat": 121.35,
+                "lng": 128.07
+            },
+            "id": "BP_StatueLever"
+        },
+        {
+            "coordinates": {
+                "lat": 125.54,
+                "lng": 45.46
+            },
+            "id": "BP_StatueLever"
+        },
+        {
+            "coordinates": {
+                "lat": 45.82,
+                "lng": 125.71
+            },
+            "id": "BP_StatueLever"
+        },
+        {
+            "coordinates": {
+                "lat": 76.57,
+                "lng": 112.36
+            },
+            "id": "BP_StatueLever"
+        }
+    ],
+    "modules": [
+        {
+            "coordinates": {
+                "lat": 313.71,
+                "lng": 86.29
+            },
+            "id": "Charnel House"
+        },
+        {
+            "coordinates": {
+                "lat": 86.29,
+                "lng": 313.71
+            },
+            "id": "Imp Ritual Rooms"
+        },
+        {
+            "coordinates": {
+                "lat": 200.0,
+                "lng": 86.29
+            },
+            "id": "Shallow Valley"
+        },
+        {
+            "coordinates": {
+                "lat": 313.71,
+                "lng": 200.0
+            },
+            "id": "Pillars"
+        },
+        {
+            "coordinates": {
+                "lat": 313.71,
+                "lng": 313.71
+            },
+            "id": "Death Pit"
+        },
+        {
+            "coordinates": {
+                "lat": 200.0,
+                "lng": 313.71
+            },
+            "id": "Staircase Hill"
+        },
+        {
+            "coordinates": {
+                "lat": 200.0,
+                "lng": 200.0
+            },
+            "id": "Wyvern Lair"
+        },
+        {
+            "coordinates": {
+                "lat": 86.29,
+                "lng": 200.0
+            },
+            "id": "Dividing Hill"
+        },
+        {
+            "coordinates": {
+                "lat": 86.29,
+                "lng": 86.29
+            },
+            "id": "Reversed Pyramid"
+        }
+    ]
+}

@@ -1,0 +1,3415 @@
+{
+    "markers": [
+        {
+            "coordinates": {
+                "lat": 365.36,
+                "lng": 200.0
+            },
+            "id": "Id_Spawner_Props_AltarOfSacrifice"
+        },
+        {
+            "coordinates": {
+                "lat": 298.57,
+                "lng": 150.71
+            },
+            "id": "Id_Spawner_Props_OrnateChestLarge_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 272.68,
+                "lng": 215.71
+            },
+            "id": "Id_Spawner_Props_ChestLarge_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 272.68,
+                "lng": 182.86
+            },
+            "id": "Id_Spawner_Props_ChestLarge_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 270.71,
+                "lng": 192.32
+            },
+            "id": "Id_Spawner_Props_WoodenBarrel02_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 271.28,
+                "lng": 206.33
+            },
+            "id": "Id_Spawner_Props_WoodenBarrel02_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 289.71,
+                "lng": 167.57
+            },
+            "id": "Id_Spawner_Props_ChestSmall_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 288.21,
+                "lng": 226.25
+            },
+            "id": "Id_Spawner_Props_ChestSmall_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 350.04,
+                "lng": 205.36
+            },
+            "id": "Id_Spawner_Props_ChestSmall_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 349.39,
+                "lng": 208.07
+            },
+            "id": "Id_Spawner_Props_ChestSmall_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 270.39,
+                "lng": 222.5
+            },
+            "id": "Id_Spawner_Props_ChestMedium_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 270.79,
+                "lng": 217.14
+            },
+            "id": "Id_Spawner_Props_ChestMedium_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 330.95,
+                "lng": 150.47
+            },
+            "id": "Id_Spawner_Props_ChestSpecial_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 270.36,
+                "lng": 211.96
+            },
+            "id": "Id_Spawner_Props_ChestMedium_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 270.36,
+                "lng": 206.61
+            },
+            "id": "Id_Spawner_Props_ChestMedium_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 314.29,
+                "lng": 199.29
+            },
+            "id": "Id_Spawner_Props_ChestSpecial_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 314.25,
+                "lng": 149.58
+            },
+            "id": "Id_Spawner_Monster_Wraith"
+        },
+        {
+            "coordinates": {
+                "lat": 276.54,
+                "lng": 196.5
+            },
+            "id": "Id_Spawner_Monster_DemonDog_Medium"
+        },
+        {
+            "coordinates": {
+                "lat": 348.57,
+                "lng": 201.07
+            },
+            "id": "Id_Spawner_Monster_CentaurDemon"
+        },
+        {
+            "coordinates": {
+                "lat": 314.29,
+                "lng": 238.21
+            },
+            "id": "Id_Spawner_Monster_SkeletonArcher_Elite"
+        },
+        {
+            "coordinates": {
+                "lat": 314.29,
+                "lng": 217.14
+            },
+            "id": "Id_Spawner_Monster_DemonBerserker"
+        },
+        {
+            "coordinates": {
+                "lat": 278.69,
+                "lng": 204.72
+            },
+            "id": "Id_Spawner_Monster_DemonDog_Medium"
+        },
+        {
+            "coordinates": {
+                "lat": 357.86,
+                "lng": 217.86
+            },
+            "id": "Id_Spawner_Props_ChestMedium_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 357.86,
+                "lng": 181.79
+            },
+            "id": "Id_Spawner_Props_ChestMedium_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 355.0,
+                "lng": 232.5
+            },
+            "id": "Id_Spawner_Props_Pot04_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 358.21,
+                "lng": 231.79
+            },
+            "id": "Id_Spawner_Props_Pot03_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 280.89,
+                "lng": 201.43
+            },
+            "id": "Id_Spawner_Props_WoodenBarrel02_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 283.04,
+                "lng": 203.57
+            },
+            "id": "Id_Spawner_Props_WoodenBarrel02_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 281.18,
+                "lng": 237.25
+            },
+            "id": "Id_Spawner_LootDrop_Coin_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 279.46,
+                "lng": 204.64
+            },
+            "id": "Id_Spawner_Props_WoodenBarrel02_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 352.86,
+                "lng": 228.57
+            },
+            "id": "Id_Spawner_Props_Pot01_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 355.79,
+                "lng": 224.18
+            },
+            "id": "Id_Spawner_LootDrop_Bandage_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 356.82,
+                "lng": 224.29
+            },
+            "id": "Id_Spawner_LootDrop_Bandage_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 274.71,
+                "lng": 198.29
+            },
+            "id": "Id_Spawner_Props_Pot03_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 356.29,
+                "lng": 229.86
+            },
+            "id": "Id_Spawner_Props_Pot02_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 353.93,
+                "lng": 210.0
+            },
+            "id": "Id_Spawner_LootDrop_Coin_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 270.33,
+                "lng": 203.56
+            },
+            "id": "Id_Spawner_Props_WoodenBarrel02_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 278.86,
+                "lng": 197.36
+            },
+            "id": "Id_Spawner_Props_Pot03_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 276.96,
+                "lng": 195.36
+            },
+            "id": "Id_Spawner_Props_Pot02_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 279.46,
+                "lng": 195.0
+            },
+            "id": "Id_Spawner_Props_Pot01_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 279.25,
+                "lng": 279.32
+            },
+            "id": "BP_PedestalPortal"
+        },
+        {
+            "coordinates": {
+                "lat": 314.29,
+                "lng": 314.29
+            },
+            "id": "BP_DecayVolume"
+        },
+        {
+            "coordinates": {
+                "lat": 296.89,
+                "lng": 320.72
+            },
+            "id": "Id_Spawner_Props_WoodChestMedium_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 278.63,
+                "lng": 303.37
+            },
+            "id": "Id_Spawner_Props_WoodChestMedium_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 334.64,
+                "lng": 302.5
+            },
+            "id": "Id_Spawner_Props_Ore_RubysilverOre_N"
+        },
+        {
+            "coordinates": {
+                "lat": 341.86,
+                "lng": 290.36
+            },
+            "id": "Id_Spawner_Monster_Mummy_Medium"
+        },
+        {
+            "coordinates": {
+                "lat": 350.74,
+                "lng": 268.29
+            },
+            "id": "Id_Spawner_Monster_DemonDog_Medium"
+        },
+        {
+            "coordinates": {
+                "lat": 345.7,
+                "lng": 345.65
+            },
+            "id": "Id_Spawner_Monster_CentaurDemon"
+        },
+        {
+            "coordinates": {
+                "lat": 268.0,
+                "lng": 336.96
+            },
+            "id": "Id_Spawner_Monster_SkeletonMelee_5type_Medium"
+        },
+        {
+            "coordinates": {
+                "lat": 315.54,
+                "lng": 336.93
+            },
+            "id": "Id_Spawner_Monster_SkeletonArcher_Medium"
+        },
+        {
+            "coordinates": {
+                "lat": 345.86,
+                "lng": 303.96
+            },
+            "id": "Id_Spawner_Monster_SkeletonArcher_Medium"
+        },
+        {
+            "coordinates": {
+                "lat": 264.43,
+                "lng": 272.36
+            },
+            "id": "Id_Spawner_Monster_DemonDog_Medium"
+        },
+        {
+            "coordinates": {
+                "lat": 270.5,
+                "lng": 266.25
+            },
+            "id": "Id_Spawner_Monster_DemonDog_Medium"
+        },
+        {
+            "coordinates": {
+                "lat": 321.79,
+                "lng": 321.79
+            },
+            "id": "Id_Spawner_Monster_DemonBat_Medium"
+        },
+        {
+            "coordinates": {
+                "lat": 280.21,
+                "lng": 283.43
+            },
+            "id": "Id_Spawner_Monster_DeathSkull_Medium"
+        },
+        {
+            "coordinates": {
+                "lat": 282.11,
+                "lng": 287.0
+            },
+            "id": "Id_Spawner_Monster_DeathSkull_Medium"
+        },
+        {
+            "coordinates": {
+                "lat": 286.93,
+                "lng": 338.39
+            },
+            "id": "Id_Spawner_Monster_Mummy_Medium"
+        },
+        {
+            "coordinates": {
+                "lat": 358.45,
+                "lng": 345.5
+            },
+            "id": "Id_Spawner_Monster_DeathSkull_Medium"
+        },
+        {
+            "coordinates": {
+                "lat": 350.56,
+                "lng": 357.91
+            },
+            "id": "Id_Spawner_Monster_DeathSkull_Medium"
+        },
+        {
+            "coordinates": {
+                "lat": 328.61,
+                "lng": 320.25
+            },
+            "id": "Id_Spawner_Monster_SkeletonMelee_5type_Medium"
+        },
+        {
+            "coordinates": {
+                "lat": 334.51,
+                "lng": 365.85
+            },
+            "id": "Id_Spawner_Props_Statue01"
+        },
+        {
+            "coordinates": {
+                "lat": 367.54,
+                "lng": 335.36
+            },
+            "id": "Id_Spawner_Props_Statue03"
+        },
+        {
+            "coordinates": {
+                "lat": 356.89,
+                "lng": 365.29
+            },
+            "id": "Id_Spawner_Props_OrnateChestMedium_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 364.25,
+                "lng": 357.32
+            },
+            "id": "Id_Spawner_Props_ChestSpecial_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 320.25,
+                "lng": 320.25
+            },
+            "id": "Id_Spawner_Props_WoodChestLarge_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 294.79,
+                "lng": 276.07
+            },
+            "id": "Id_Spawner_Props_WoodChestMedium_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 271.21,
+                "lng": 295.36
+            },
+            "id": "Id_Spawner_Props_OrnateChestLarge_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 364.07,
+                "lng": 264.97
+            },
+            "id": "Id_Spawner_Props_SkeletonCorpse_01_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 294.79,
+                "lng": 271.43
+            },
+            "id": "Id_Spawner_Props_WoodChestMedium_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 327.75,
+                "lng": 330.57
+            },
+            "id": "Id_Spawner_Props_WoodChestMedium_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 331.36,
+                "lng": 327.25
+            },
+            "id": "Id_Spawner_Props_WoodChestMedium_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 263.46,
+                "lng": 330.25
+            },
+            "id": "Id_Spawner_Props_WoodChestMedium_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 275.89,
+                "lng": 338.29
+            },
+            "id": "Id_Spawner_Props_Pot03_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 272.96,
+                "lng": 336.86
+            },
+            "id": "Id_Spawner_Props_Pot04_N"
+        },
+        {
+            "coordinates": {
+                "lat": 328.25,
+                "lng": 266.89
+            },
+            "id": "Id_Spawner_Props_Pot04_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 330.54,
+                "lng": 263.93
+            },
+            "id": "Id_Spawner_Props_Pot03_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 264.64,
+                "lng": 266.79
+            },
+            "id": "Id_Spawner_Props_Lifeleaf_N"
+        },
+        {
+            "coordinates": {
+                "lat": 266.79,
+                "lng": 264.29
+            },
+            "id": "Id_Spawner_Props_Lifeleaf_N"
+        },
+        {
+            "coordinates": {
+                "lat": 359.29,
+                "lng": 359.29
+            },
+            "id": "Id_Spawner_Props_AltarOfSacrifice"
+        },
+        {
+            "coordinates": {
+                "lat": 303.93,
+                "lng": 349.46
+            },
+            "id": "Id_Spawner_Props_Lifeleaf_N"
+        },
+        {
+            "coordinates": {
+                "lat": 365.61,
+                "lng": 274.5
+            },
+            "id": "Id_Spawner_Props_Lifeleaf_N"
+        },
+        {
+            "coordinates": {
+                "lat": 361.61,
+                "lng": 366.79
+            },
+            "id": "Id_Spawner_Props_Ore_RubysilverOre_N"
+        },
+        {
+            "coordinates": {
+                "lat": 286.43,
+                "lng": 35.71
+            },
+            "id": "Id_Spawner_Props_Statue03"
+        },
+        {
+            "coordinates": {
+                "lat": 299.64,
+                "lng": 65.71
+            },
+            "id": "Id_Spawner_Props_Lifeleaf_N"
+        },
+        {
+            "coordinates": {
+                "lat": 317.25,
+                "lng": 38.39
+            },
+            "id": "Id_Spawner_LootDrop_Coin_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 320.5,
+                "lng": 47.5
+            },
+            "id": "Id_Spawner_LootDrop_Coin_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 335.82,
+                "lng": 41.89
+            },
+            "id": "Id_Spawner_LootDrop_Coin_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 347.29,
+                "lng": 38.75
+            },
+            "id": "Id_Spawner_LootDrop_Coin_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 344.0,
+                "lng": 44.14
+            },
+            "id": "Id_Spawner_LootDrop_Coin_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 339.07,
+                "lng": 46.11
+            },
+            "id": "Id_Spawner_LootDrop_Coin_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 314.71,
+                "lng": 86.43
+            },
+            "id": "Id_Spawner_Props_ChestSpecial_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 296.07,
+                "lng": 67.86
+            },
+            "id": "Id_Spawner_Props_ChestLarge_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 284.64,
+                "lng": 56.07
+            },
+            "id": "Id_Spawner_Props_ChestMedium_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 284.64,
+                "lng": 115.36
+            },
+            "id": "Id_Spawner_Props_ChestMedium_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 298.36,
+                "lng": 84.04
+            },
+            "id": "Id_Spawner_LootDrop_Coin_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 298.32,
+                "lng": 92.86
+            },
+            "id": "Id_Spawner_LootDrop_Coin_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 293.36,
+                "lng": 97.57
+            },
+            "id": "Id_Spawner_LootDrop_Coin_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 297.39,
+                "lng": 120.82
+            },
+            "id": "Id_Spawner_Props_InfernoSecretWallDoor"
+        },
+        {
+            "coordinates": {
+                "lat": 302.32,
+                "lng": 121.79
+            },
+            "id": "Id_Spawner_Props_WallLever"
+        },
+        {
+            "coordinates": {
+                "lat": 325.68,
+                "lng": 131.36
+            },
+            "id": "Id_Spawner_Props_ChestMedium_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 314.43,
+                "lng": 131.36
+            },
+            "id": "Id_Spawner_Props_ChestSpecial_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 303.04,
+                "lng": 131.36
+            },
+            "id": "Id_Spawner_Props_ChestMedium_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 289.14,
+                "lng": 62.0
+            },
+            "id": "Id_Spawner_Monster_Zombie_Medium"
+        },
+        {
+            "coordinates": {
+                "lat": 348.57,
+                "lng": 86.96
+            },
+            "id": "Id_Spawner_Props_Pot03_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 295.61,
+                "lng": 77.96
+            },
+            "id": "Id_Spawner_Monster_Zombie_Medium"
+        },
+        {
+            "coordinates": {
+                "lat": 273.93,
+                "lng": 126.07
+            },
+            "id": "Id_Spawner_Props_WoodenBarrel02_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 274.35,
+                "lng": 42.6
+            },
+            "id": "Id_Spawner_Props_WoodenBarrel02_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 289.29,
+                "lng": 58.93
+            },
+            "id": "Id_Spawner_Monster_GiantDragonfly_Medium"
+        },
+        {
+            "coordinates": {
+                "lat": 338.71,
+                "lng": 40.82
+            },
+            "id": "Id_Spawner_LootDrop_Coin_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 345.39,
+                "lng": 133.18
+            },
+            "id": "Id_Spawner_LootDrop_Bandage_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 332.5,
+                "lng": 40.14
+            },
+            "id": "Id_Spawner_Props_ChestLarge_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 346.07,
+                "lng": 47.5
+            },
+            "id": "Id_Spawner_Monster_DemonBat_Medium"
+        },
+        {
+            "coordinates": {
+                "lat": 315.36,
+                "lng": 127.5
+            },
+            "id": "Id_Spawner_Monster_DemonBat_Medium"
+        },
+        {
+            "coordinates": {
+                "lat": 304.29,
+                "lng": 56.79
+            },
+            "id": "Id_Spawner_Monster_DemonBat_Medium"
+        },
+        {
+            "coordinates": {
+                "lat": 301.07,
+                "lng": 65.71
+            },
+            "id": "Id_Spawner_Props_Lifeleaf_N"
+        },
+        {
+            "coordinates": {
+                "lat": 328.57,
+                "lng": 115.36
+            },
+            "id": "Id_Spawner_Monster_GiantDragonfly_Medium"
+        },
+        {
+            "coordinates": {
+                "lat": 279.11,
+                "lng": 100.71
+            },
+            "id": "Id_Spawner_Props_JailDoor01"
+        },
+        {
+            "coordinates": {
+                "lat": 349.64,
+                "lng": 70.71
+            },
+            "id": "Id_Spawner_Props_JailDoor01"
+        },
+        {
+            "coordinates": {
+                "lat": 298.57,
+                "lng": 50.36
+            },
+            "id": "Id_Spawner_Props_JailDoor01"
+        },
+        {
+            "coordinates": {
+                "lat": 317.5,
+                "lng": 116.93
+            },
+            "id": "Id_Spawner_Props_WallLever"
+        },
+        {
+            "coordinates": {
+                "lat": 273.54,
+                "lng": 85.61
+            },
+            "id": "Id_Spawner_LootDrop_Bandage_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 319.64,
+                "lng": 97.96
+            },
+            "id": "Id_Spawner_LootDrop_Bandage_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 330.36,
+                "lng": 71.79
+            },
+            "id": "Id_Spawner_Props_Lifeleaf_N"
+        },
+        {
+            "coordinates": {
+                "lat": 334.08,
+                "lng": 97.01
+            },
+            "id": "Id_Spawner_Props_WoodenBarrel02_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 336.94,
+                "lng": 98.08
+            },
+            "id": "Id_Spawner_Props_WoodenBarrel02_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 334.79,
+                "lng": 100.23
+            },
+            "id": "Id_Spawner_Props_WoodenBarrel02_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 270.71,
+                "lng": 125.36
+            },
+            "id": "Id_Spawner_Props_WoodenBarrel02_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 294.43,
+                "lng": 100.43
+            },
+            "id": "Id_Spawner_Props_SkeletonCorpse_01_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 271.5,
+                "lng": 103.36
+            },
+            "id": "Id_Spawner_Props_SkeletonCorpse_01_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 366.43,
+                "lng": 74.64
+            },
+            "id": "Id_Spawner_Props_Lifeleaf_N"
+        },
+        {
+            "coordinates": {
+                "lat": 271.68,
+                "lng": 90.82
+            },
+            "id": "Id_Spawner_Props_SkeletonCorpse_02_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 271.68,
+                "lng": 70.25
+            },
+            "id": "Id_Spawner_Props_SkeletonCorpse_03_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 358.14,
+                "lng": 103.36
+            },
+            "id": "Id_Spawner_Props_SkeletonCorpse_01_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 357.64,
+                "lng": 90.82
+            },
+            "id": "Id_Spawner_Props_SkeletonCorpse_02_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 357.43,
+                "lng": 68.64
+            },
+            "id": "Id_Spawner_Props_SkeletonCorpse_03_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 274.75,
+                "lng": 79.36
+            },
+            "id": "Id_Spawner_Monster_SkeletonGuardsmanFromFakeDeath_Medium"
+        },
+        {
+            "coordinates": {
+                "lat": 275.46,
+                "lng": 91.71
+            },
+            "id": "Id_Spawner_Monster_SkeletonMelee_5type_Medium"
+        },
+        {
+            "coordinates": {
+                "lat": 270.68,
+                "lng": 67.36
+            },
+            "id": "Id_Spawner_Monster_Zombie_Medium"
+        },
+        {
+            "coordinates": {
+                "lat": 357.36,
+                "lng": 80.14
+            },
+            "id": "Id_Spawner_Monster_SkeletonMelee_5type_Medium"
+        },
+        {
+            "coordinates": {
+                "lat": 353.48,
+                "lng": 89.95
+            },
+            "id": "Id_Spawner_Monster_Zombie_Medium"
+        },
+        {
+            "coordinates": {
+                "lat": 354.21,
+                "lng": 102.54
+            },
+            "id": "Id_Spawner_Monster_SkeletonGuardsmanFromFakeDeath_Medium"
+        },
+        {
+            "coordinates": {
+                "lat": 295.14,
+                "lng": 43.32
+            },
+            "id": "Id_Spawner_Monster_SpiderMummy_Elite"
+        },
+        {
+            "coordinates": {
+                "lat": 322.86,
+                "lng": 46.57
+            },
+            "id": "Id_Spawner_Monster_Wraith"
+        },
+        {
+            "coordinates": {
+                "lat": 271.43,
+                "lng": 128.57
+            },
+            "id": "Id_Spawner_Props_WoodenBarrel02_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 265.13,
+                "lng": 134.15
+            },
+            "id": "Id_Spawner_Props_ChestMedium_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 363.21,
+                "lng": 36.79
+            },
+            "id": "Id_Spawner_Props_ChestMedium_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 363.21,
+                "lng": 134.64
+            },
+            "id": "Id_Spawner_Props_ChestMedium_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 265.0,
+                "lng": 36.43
+            },
+            "id": "Id_Spawner_Props_ChestMedium_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 271.07,
+                "lng": 42.86
+            },
+            "id": "Id_Spawner_Props_WoodenBarrel02_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 357.79,
+                "lng": 129.26
+            },
+            "id": "Id_Spawner_Props_ChestMedium_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 361.14,
+                "lng": 101.14
+            },
+            "id": "Id_Spawner_Monster_Mummy_Medium"
+        },
+        {
+            "coordinates": {
+                "lat": 357.86,
+                "lng": 75.54
+            },
+            "id": "Id_Spawner_Props_ChestMedium_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 363.93,
+                "lng": 75.0
+            },
+            "id": "Id_Spawner_Props_FloorSpikes"
+        },
+        {
+            "coordinates": {
+                "lat": 264.61,
+                "lng": 95.71
+            },
+            "id": "Id_Spawner_Props_FloorSpikes"
+        },
+        {
+            "coordinates": {
+                "lat": 279.11,
+                "lng": 89.29
+            },
+            "id": "Id_Spawner_Props_JailDoor01"
+        },
+        {
+            "coordinates": {
+                "lat": 279.11,
+                "lng": 77.96
+            },
+            "id": "Id_Spawner_Props_JailDoor01"
+        },
+        {
+            "coordinates": {
+                "lat": 279.11,
+                "lng": 66.57
+            },
+            "id": "Id_Spawner_Props_JailDoor01"
+        },
+        {
+            "coordinates": {
+                "lat": 349.64,
+                "lng": 81.96
+            },
+            "id": "Id_Spawner_Props_JailDoor01"
+        },
+        {
+            "coordinates": {
+                "lat": 349.64,
+                "lng": 93.39
+            },
+            "id": "Id_Spawner_Props_JailDoor01"
+        },
+        {
+            "coordinates": {
+                "lat": 361.14,
+                "lng": 84.71
+            },
+            "id": "Id_Spawner_Monster_Mummy_Medium"
+        },
+        {
+            "coordinates": {
+                "lat": 349.64,
+                "lng": 104.82
+            },
+            "id": "Id_Spawner_Props_JailDoor01"
+        },
+        {
+            "coordinates": {
+                "lat": 333.93,
+                "lng": 50.36
+            },
+            "id": "Id_Spawner_Props_JailDoor01"
+        },
+        {
+            "coordinates": {
+                "lat": 331.07,
+                "lng": 120.82
+            },
+            "id": "Id_Spawner_Props_InfernoSecretWallDoor"
+        },
+        {
+            "coordinates": {
+                "lat": 266.43,
+                "lng": 88.57
+            },
+            "id": "Id_Spawner_Props_Statue01"
+        },
+        {
+            "coordinates": {
+                "lat": 321.07,
+                "lng": 123.61
+            },
+            "id": "Id_Spawner_Props_FloorSpikes"
+        },
+        {
+            "coordinates": {
+                "lat": 321.07,
+                "lng": 130.75
+            },
+            "id": "Id_Spawner_Props_FloorSpikes"
+        },
+        {
+            "coordinates": {
+                "lat": 307.5,
+                "lng": 40.75
+            },
+            "id": "Id_Spawner_Props_FloorSpikes"
+        },
+        {
+            "coordinates": {
+                "lat": 307.5,
+                "lng": 47.89
+            },
+            "id": "Id_Spawner_Props_FloorSpikes"
+        },
+        {
+            "coordinates": {
+                "lat": 332.29,
+                "lng": 78.8
+            },
+            "id": "Id_Spawner_Props_ChestLarge_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 263.93,
+                "lng": 60.71
+            },
+            "id": "Id_Spawner_Props_WallLever"
+        },
+        {
+            "coordinates": {
+                "lat": 268.57,
+                "lng": 51.75
+            },
+            "id": "Id_Spawner_Props_WallLever"
+        },
+        {
+            "coordinates": {
+                "lat": 264.29,
+                "lng": 117.86
+            },
+            "id": "Id_Spawner_Props_WallLever"
+        },
+        {
+            "coordinates": {
+                "lat": 268.57,
+                "lng": 108.93
+            },
+            "id": "Id_Spawner_Props_WallLever"
+        },
+        {
+            "coordinates": {
+                "lat": 280.36,
+                "lng": 131.43
+            },
+            "id": "Id_Spawner_Props_WallLever"
+        },
+        {
+            "coordinates": {
+                "lat": 289.29,
+                "lng": 134.64
+            },
+            "id": "Id_Spawner_Props_WallLever"
+        },
+        {
+            "coordinates": {
+                "lat": 337.5,
+                "lng": 131.43
+            },
+            "id": "Id_Spawner_Props_WallLever"
+        },
+        {
+            "coordinates": {
+                "lat": 346.43,
+                "lng": 135.36
+            },
+            "id": "Id_Spawner_Props_WallLever"
+        },
+        {
+            "coordinates": {
+                "lat": 290.36,
+                "lng": 88.32
+            },
+            "id": "Id_Spawner_Props_InfernoSecretWallDoor"
+        },
+        {
+            "coordinates": {
+                "lat": 293.53,
+                "lng": 107.18
+            },
+            "id": "Id_Spawner_Props_FloorLever"
+        },
+        {
+            "coordinates": {
+                "lat": 276.61,
+                "lng": 97.39
+            },
+            "id": "Id_Spawner_Props_FloorLever"
+        },
+        {
+            "coordinates": {
+                "lat": 351.25,
+                "lng": 85.89
+            },
+            "id": "Id_Spawner_Props_Pot03_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 274.71,
+                "lng": 103.36
+            },
+            "id": "Id_Spawner_LootDrop_Weapon_Common"
+        },
+        {
+            "coordinates": {
+                "lat": 268.64,
+                "lng": 95.21
+            },
+            "id": "Id_Spawner_LootDrop_Coin_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 273.46,
+                "lng": 91.89
+            },
+            "id": "Id_Spawner_LootDrop_Coin_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 299.43,
+                "lng": 43.32
+            },
+            "id": "Id_Spawner_Monster_SpiderMummy_Elite"
+        },
+        {
+            "coordinates": {
+                "lat": 297.29,
+                "lng": 38.46
+            },
+            "id": "Id_Spawner_LootDrop_Potion_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 112.61,
+                "lng": 197.36
+            },
+            "id": "BP_InfernoSecretWallDoor"
+        },
+        {
+            "coordinates": {
+                "lat": 130.71,
+                "lng": 205.36
+            },
+            "id": "Id_Spawner_Props_ChestLarge_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 117.5,
+                "lng": 193.57
+            },
+            "id": "Id_Spawner_Props_ChestMedium_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 117.5,
+                "lng": 206.25
+            },
+            "id": "Id_Spawner_Props_ChestMedium_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 130.71,
+                "lng": 194.64
+            },
+            "id": "Id_Spawner_Props_OrnateChestLarge_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 133.11,
+                "lng": 224.04
+            },
+            "id": "Id_Spawner_Props_InfernoSecretWallDoor"
+        },
+        {
+            "coordinates": {
+                "lat": 86.46,
+                "lng": 148.5
+            },
+            "id": "Id_Spawner_Props_WoodenBarrel02_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 138.18,
+                "lng": 251.0
+            },
+            "id": "Id_Spawner_Props_FloorLever"
+        },
+        {
+            "coordinates": {
+                "lat": 137.43,
+                "lng": 221.46
+            },
+            "id": "Id_Spawner_Props_WallLever"
+        },
+        {
+            "coordinates": {
+                "lat": 137.89,
+                "lng": 148.79
+            },
+            "id": "Id_Spawner_Props_FloorLever"
+        },
+        {
+            "coordinates": {
+                "lat": 137.39,
+                "lng": 178.54
+            },
+            "id": "Id_Spawner_Props_WallLever"
+        },
+        {
+            "coordinates": {
+                "lat": 83.61,
+                "lng": 149.21
+            },
+            "id": "Id_Spawner_Props_WoodenBarrel02_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 133.61,
+                "lng": 251.36
+            },
+            "id": "Id_Spawner_Props_Pot01_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 108.04,
+                "lng": 202.5
+            },
+            "id": "Id_Spawner_Monster_GiantDragonfly_Medium"
+        },
+        {
+            "coordinates": {
+                "lat": 136.25,
+                "lng": 194.29
+            },
+            "id": "Id_Spawner_LootDrop_Potion_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 101.93,
+                "lng": 193.57
+            },
+            "id": "Id_Spawner_LootDrop_Ground_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 107.5,
+                "lng": 198.21
+            },
+            "id": "Id_Spawner_Monster_GiantDragonfly_Medium"
+        },
+        {
+            "coordinates": {
+                "lat": 61.82,
+                "lng": 204.64
+            },
+            "id": "Id_Spawner_Monster_SkeletonArcher_Medium"
+        },
+        {
+            "coordinates": {
+                "lat": 133.93,
+                "lng": 200.0
+            },
+            "id": "Id_Spawner_Props_FloorSpikes"
+        },
+        {
+            "coordinates": {
+                "lat": 133.93,
+                "lng": 192.5
+            },
+            "id": "Id_Spawner_Props_FloorSpikes"
+        },
+        {
+            "coordinates": {
+                "lat": 133.93,
+                "lng": 207.5
+            },
+            "id": "Id_Spawner_Props_FloorSpikes"
+        },
+        {
+            "coordinates": {
+                "lat": 133.96,
+                "lng": 172.79
+            },
+            "id": "Id_Spawner_Props_Pot04_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 64.07,
+                "lng": 192.46
+            },
+            "id": "Id_Spawner_Props_Lifeleaf_N"
+        },
+        {
+            "coordinates": {
+                "lat": 130.93,
+                "lng": 173.14
+            },
+            "id": "Id_Spawner_Props_Pot03_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 85.75,
+                "lng": 151.36
+            },
+            "id": "Id_Spawner_Props_WoodenBarrel02_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 86.46,
+                "lng": 249.21
+            },
+            "id": "Id_Spawner_Props_WoodenBarrel02_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 83.61,
+                "lng": 249.93
+            },
+            "id": "Id_Spawner_Props_WoodenBarrel02_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 85.75,
+                "lng": 252.07
+            },
+            "id": "Id_Spawner_Props_WoodenBarrel02_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 127.14,
+                "lng": 251.79
+            },
+            "id": "Id_Spawner_Props_WoodenBarrel02_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 71.39,
+                "lng": 208.96
+            },
+            "id": "Id_Spawner_Props_Lifeleaf_N"
+        },
+        {
+            "coordinates": {
+                "lat": 133.04,
+                "lng": 175.79
+            },
+            "id": "Id_Spawner_Props_InfernoSecretWallDoor"
+        },
+        {
+            "coordinates": {
+                "lat": 118.57,
+                "lng": 251.79
+            },
+            "id": "Id_Spawner_Props_WoodenBarrel02_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 110.36,
+                "lng": 252.14
+            },
+            "id": "Id_Spawner_Props_WoodenBarrel02_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 115.71,
+                "lng": 250.36
+            },
+            "id": "Id_Spawner_Props_WoodenBarrel02_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 126.43,
+                "lng": 246.79
+            },
+            "id": "Id_Spawner_Props_WoodenBarrel02_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 136.25,
+                "lng": 205.71
+            },
+            "id": "Id_Spawner_LootDrop_Potion_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 105.18,
+                "lng": 206.61
+            },
+            "id": "Id_Spawner_LootDrop_Ground_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 105.18,
+                "lng": 193.21
+            },
+            "id": "Id_Spawner_LootDrop_Ground_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 103.93,
+                "lng": 192.5
+            },
+            "id": "Id_Spawner_Props_FloorSpikes"
+        },
+        {
+            "coordinates": {
+                "lat": 103.93,
+                "lng": 200.0
+            },
+            "id": "Id_Spawner_Props_FloorSpikes"
+        },
+        {
+            "coordinates": {
+                "lat": 103.93,
+                "lng": 207.5
+            },
+            "id": "Id_Spawner_Props_FloorSpikes"
+        },
+        {
+            "coordinates": {
+                "lat": 111.43,
+                "lng": 192.5
+            },
+            "id": "Id_Spawner_Props_FloorSpikes"
+        },
+        {
+            "coordinates": {
+                "lat": 111.43,
+                "lng": 200.0
+            },
+            "id": "Id_Spawner_Props_FloorSpikes"
+        },
+        {
+            "coordinates": {
+                "lat": 111.43,
+                "lng": 207.5
+            },
+            "id": "Id_Spawner_Props_FloorSpikes"
+        },
+        {
+            "coordinates": {
+                "lat": 118.93,
+                "lng": 192.5
+            },
+            "id": "Id_Spawner_Props_FloorSpikes"
+        },
+        {
+            "coordinates": {
+                "lat": 83.5,
+                "lng": 180.82
+            },
+            "id": "Id_Spawner_Props_Lifeleaf_N"
+        },
+        {
+            "coordinates": {
+                "lat": 131.82,
+                "lng": 159.93
+            },
+            "id": "Id_Spawner_Monster_SkeletonArcher_Medium"
+        },
+        {
+            "coordinates": {
+                "lat": 136.79,
+                "lng": 200.0
+            },
+            "id": "Id_Spawner_LootDrop_Weapon_Rare"
+        },
+        {
+            "coordinates": {
+                "lat": 35.0,
+                "lng": 192.86
+            },
+            "id": "Id_Spawner_Props_ChestMedium_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 35.0,
+                "lng": 207.14
+            },
+            "id": "Id_Spawner_Props_ChestMedium_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 34.89,
+                "lng": 148.82
+            },
+            "id": "Id_Spawner_Props_ChestMedium_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 132.14,
+                "lng": 238.21
+            },
+            "id": "Id_Spawner_Monster_SkeletonArcher_Medium"
+        },
+        {
+            "coordinates": {
+                "lat": 107.5,
+                "lng": 243.93
+            },
+            "id": "Id_Spawner_Monster_SkeletonMelee_5type_Medium"
+        },
+        {
+            "coordinates": {
+                "lat": 107.18,
+                "lng": 155.11
+            },
+            "id": "Id_Spawner_Monster_SkeletonMelee_5type_Medium"
+        },
+        {
+            "coordinates": {
+                "lat": 86.25,
+                "lng": 180.82
+            },
+            "id": "Id_Spawner_Props_Lifeleaf_N"
+        },
+        {
+            "coordinates": {
+                "lat": 80.18,
+                "lng": 184.11
+            },
+            "id": "Id_Spawner_Props_ChestMedium_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 75.0,
+                "lng": 245.71
+            },
+            "id": "Id_Spawner_Monster_SkeletonArcher_Medium"
+        },
+        {
+            "coordinates": {
+                "lat": 127.5,
+                "lng": 246.07
+            },
+            "id": "Id_Spawner_Monster_SkeletonMelee_5type_Medium"
+        },
+        {
+            "coordinates": {
+                "lat": 118.57,
+                "lng": 155.71
+            },
+            "id": "Id_Spawner_Monster_GiantDragonfly_Medium"
+        },
+        {
+            "coordinates": {
+                "lat": 129.64,
+                "lng": 153.93
+            },
+            "id": "Id_Spawner_Monster_SkeletonRanged_2type_Medium"
+        },
+        {
+            "coordinates": {
+                "lat": 120.89,
+                "lng": 199.82
+            },
+            "id": "Id_Spawner_Monster_Mummy_Medium"
+        },
+        {
+            "coordinates": {
+                "lat": 114.29,
+                "lng": 200.0
+            },
+            "id": "Id_Spawner_Props_ChestLarge_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 110.71,
+                "lng": 148.57
+            },
+            "id": "Id_Spawner_Props_WoodenBarrel02_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 110.36,
+                "lng": 205.71
+            },
+            "id": "Id_Spawner_Props_ChestSmall_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 110.36,
+                "lng": 194.29
+            },
+            "id": "Id_Spawner_Props_ChestSmall_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 86.07,
+                "lng": 239.29
+            },
+            "id": "Id_Spawner_Props_ChestSpecial_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 87.14,
+                "lng": 171.43
+            },
+            "id": "Id_Spawner_Props_ChestMedium_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 100.36,
+                "lng": 237.86
+            },
+            "id": "Id_Spawner_Props_ChestMedium_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 112.14,
+                "lng": 237.5
+            },
+            "id": "Id_Spawner_Props_ChestMedium_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 102.14,
+                "lng": 162.5
+            },
+            "id": "Id_Spawner_Props_ChestMedium_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 112.89,
+                "lng": 162.79
+            },
+            "id": "Id_Spawner_Props_ChestMedium_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 137.89,
+                "lng": 148.86
+            },
+            "id": "Id_Spawner_Props_ChestSmall_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 113.93,
+                "lng": 148.57
+            },
+            "id": "Id_Spawner_Props_WoodenBarrel02_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 137.5,
+                "lng": 251.07
+            },
+            "id": "Id_Spawner_Props_ChestSmall_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 86.07,
+                "lng": 251.43
+            },
+            "id": "Id_Spawner_Props_ChestMedium_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 77.86,
+                "lng": 236.07
+            },
+            "id": "Id_Spawner_Props_ChestMedium_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 98.21,
+                "lng": 250.18
+            },
+            "id": "Id_Spawner_Props_Pot03_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 73.61,
+                "lng": 163.86
+            },
+            "id": "Id_Spawner_Props_ChestMedium_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 131.46,
+                "lng": 148.68
+            },
+            "id": "Id_Spawner_Props_ChestMedium_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 136.82,
+                "lng": 251.36
+            },
+            "id": "Id_Spawner_Props_Pot04_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 112.5,
+                "lng": 151.07
+            },
+            "id": "Id_Spawner_Props_WoodenBarrel02_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 137.18,
+                "lng": 248.14
+            },
+            "id": "Id_Spawner_Props_Pot03_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 136.43,
+                "lng": 244.64
+            },
+            "id": "Id_Spawner_Props_ChestMedium_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 69.29,
+                "lng": 190.54
+            },
+            "id": "Id_Spawner_Props_FloorLever"
+        },
+        {
+            "coordinates": {
+                "lat": 118.93,
+                "lng": 200.0
+            },
+            "id": "Id_Spawner_Props_FloorSpikes"
+        },
+        {
+            "coordinates": {
+                "lat": 118.93,
+                "lng": 207.5
+            },
+            "id": "Id_Spawner_Props_FloorSpikes"
+        },
+        {
+            "coordinates": {
+                "lat": 126.43,
+                "lng": 192.5
+            },
+            "id": "Id_Spawner_Props_FloorSpikes"
+        },
+        {
+            "coordinates": {
+                "lat": 126.43,
+                "lng": 200.0
+            },
+            "id": "Id_Spawner_Props_FloorSpikes"
+        },
+        {
+            "coordinates": {
+                "lat": 126.43,
+                "lng": 207.5
+            },
+            "id": "Id_Spawner_Props_FloorSpikes"
+        },
+        {
+            "coordinates": {
+                "lat": 66.79,
+                "lng": 200.0
+            },
+            "id": "Id_Spawner_Monster_SkeletonMelee_5type_Medium"
+        },
+        {
+            "coordinates": {
+                "lat": 61.82,
+                "lng": 195.64
+            },
+            "id": "Id_Spawner_Monster_SkeletonGuardsmanFromFakeDeath_Medium"
+        },
+        {
+            "coordinates": {
+                "lat": 110.5,
+                "lng": 285.71
+            },
+            "id": "BP_AltarOfSacrifice_0"
+        },
+        {
+            "coordinates": {
+                "lat": 78.93,
+                "lng": 317.5
+            },
+            "id": "BP_FloorLever"
+        },
+        {
+            "coordinates": {
+                "lat": 91.0,
+                "lng": 311.71
+            },
+            "id": "BP_FloorLever"
+        },
+        {
+            "coordinates": {
+                "lat": 70.96,
+                "lng": 265.04
+            },
+            "id": "Id_Spawner_Props_ChestSmall_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 95.18,
+                "lng": 264.46
+            },
+            "id": "Id_Spawner_Props_ChestSmall_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 99.29,
+                "lng": 272.14
+            },
+            "id": "Id_Spawner_Props_ChestSpecial_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 68.0,
+                "lng": 308.61
+            },
+            "id": "Id_Spawner_Props_ChestSmall_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 74.14,
+                "lng": 286.54
+            },
+            "id": "Id_Spawner_Monster_SkeletonMage_Medium"
+        },
+        {
+            "coordinates": {
+                "lat": 67.86,
+                "lng": 331.79
+            },
+            "id": "Id_Spawner_Props_ChestSmall_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 81.75,
+                "lng": 282.25
+            },
+            "id": "Id_Spawner_LootDrop_Gems_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 102.86,
+                "lng": 333.57
+            },
+            "id": "Id_Spawner_Props_ChestSmall_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 85.71,
+                "lng": 348.21
+            },
+            "id": "Id_Spawner_Props_ChestSpecial_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 54.89,
+                "lng": 339.75
+            },
+            "id": "Id_Spawner_Props_OrnateChestSmall_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 68.93,
+                "lng": 311.43
+            },
+            "id": "Id_Spawner_Props_ChestSmall_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 43.1,
+                "lng": 271.5
+            },
+            "id": "Id_Spawner_Props_ChestSmall_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 127.97,
+                "lng": 271.55
+            },
+            "id": "Id_Spawner_Props_ChestSmall_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 101.43,
+                "lng": 311.43
+            },
+            "id": "Id_Spawner_Props_ChestSmall_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 85.71,
+                "lng": 355.0
+            },
+            "id": "Id_Spawner_Monster_SkeletonRanged_2type_Medium"
+        },
+        {
+            "coordinates": {
+                "lat": 70.64,
+                "lng": 302.39
+            },
+            "id": "Id_Spawner_Monster_SkeletonMelee_5type_Medium"
+        },
+        {
+            "coordinates": {
+                "lat": 79.43,
+                "lng": 337.82
+            },
+            "id": "Id_Spawner_Monster_SkeletonMelee_5type_Medium"
+        },
+        {
+            "coordinates": {
+                "lat": 100.71,
+                "lng": 302.46
+            },
+            "id": "Id_Spawner_Monster_SkeletonGuardsmanFromFakeDeath_Medium"
+        },
+        {
+            "coordinates": {
+                "lat": 89.96,
+                "lng": 334.82
+            },
+            "id": "Id_Spawner_Monster_SkeletonMelee_5type_Medium"
+        },
+        {
+            "coordinates": {
+                "lat": 85.54,
+                "lng": 320.89
+            },
+            "id": "Id_Spawner_Monster_SkeletonGuardsmanFromFakeDeath_Medium"
+        },
+        {
+            "coordinates": {
+                "lat": 75.21,
+                "lng": 355.64
+            },
+            "id": "Id_Spawner_Props_Pot03_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 59.75,
+                "lng": 355.57
+            },
+            "id": "Id_Spawner_Props_Pot03_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 98.61,
+                "lng": 287.14
+            },
+            "id": "Id_Spawner_Props_Pot02_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 97.89,
+                "lng": 280.0
+            },
+            "id": "Id_Spawner_Props_Pot04_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 95.86,
+                "lng": 282.5
+            },
+            "id": "Id_Spawner_Props_Pot02_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 83.25,
+                "lng": 286.79
+            },
+            "id": "Id_Spawner_Props_Pot02_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 96.29,
+                "lng": 285.36
+            },
+            "id": "Id_Spawner_Props_Pot03_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 80.39,
+                "lng": 284.64
+            },
+            "id": "Id_Spawner_Props_Pot03_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 83.61,
+                "lng": 283.21
+            },
+            "id": "Id_Spawner_Props_Pot04_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 58.39,
+                "lng": 336.61
+            },
+            "id": "Id_Spawner_Props_WoodenBarrel02_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 58.5,
+                "lng": 345.57
+            },
+            "id": "Id_Spawner_Props_WoodenBarrel02_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 76.89,
+                "lng": 358.18
+            },
+            "id": "Id_Spawner_Props_Pot03_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 60.04,
+                "lng": 358.36
+            },
+            "id": "Id_Spawner_Props_Pot03_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 87.18,
+                "lng": 291.89
+            },
+            "id": "Id_Spawner_Props_Pot01_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 48.14,
+                "lng": 362.18
+            },
+            "id": "Id_Spawner_Props_WoodenBarrel02_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 93.29,
+                "lng": 358.18
+            },
+            "id": "Id_Spawner_Props_WoodenBarrel02_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 91.71,
+                "lng": 355.68
+            },
+            "id": "Id_Spawner_Props_WoodenBarrel02_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 236.64,
+                "lng": 85.79
+            },
+            "id": "BP_AltarOfSacrifice_0"
+        },
+        {
+            "coordinates": {
+                "lat": 171.43,
+                "lng": 85.71
+            },
+            "id": "BP_Statue04_0"
+        },
+        {
+            "coordinates": {
+                "lat": 165.71,
+                "lng": 42.5
+            },
+            "id": "BP_WallSpikeTrap2_0"
+        },
+        {
+            "coordinates": {
+                "lat": 165.71,
+                "lng": 48.57
+            },
+            "id": "BP_WallSpikeTrap_1"
+        },
+        {
+            "coordinates": {
+                "lat": 198.29,
+                "lng": 85.69
+            },
+            "id": "Id_Spawner_Props_WoodenBarrel02_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 186.93,
+                "lng": 95.3
+            },
+            "id": "Id_Spawner_Props_WoodenBarrel02_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 233.93,
+                "lng": 78.57
+            },
+            "id": "Id_Spawner_Monster_SkeletonArcher_Medium"
+        },
+        {
+            "coordinates": {
+                "lat": 233.21,
+                "lng": 92.86
+            },
+            "id": "Id_Spawner_Monster_SkeletonArcher_Medium"
+        },
+        {
+            "coordinates": {
+                "lat": 166.29,
+                "lng": 92.5
+            },
+            "id": "Id_Spawner_Monster_SkeletonArcher_Medium"
+        },
+        {
+            "coordinates": {
+                "lat": 166.57,
+                "lng": 78.57
+            },
+            "id": "Id_Spawner_Monster_SkeletonArcher_Medium"
+        },
+        {
+            "coordinates": {
+                "lat": 209.47,
+                "lng": 72.26
+            },
+            "id": "Id_Spawner_Props_WoodenBarrel02_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 201.79,
+                "lng": 85.69
+            },
+            "id": "Id_Spawner_Props_WoodenBarrel02_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 192.36,
+                "lng": 99.0
+            },
+            "id": "Id_Spawner_Monster_SkeletonMelee_5type_Medium"
+        },
+        {
+            "coordinates": {
+                "lat": 208.43,
+                "lng": 71.14
+            },
+            "id": "Id_Spawner_Monster_SkeletonMelee_5type_Medium"
+        },
+        {
+            "coordinates": {
+                "lat": 185.21,
+                "lng": 90.07
+            },
+            "id": "Id_Spawner_Monster_SkeletonMelee_5type_Medium"
+        },
+        {
+            "coordinates": {
+                "lat": 208.75,
+                "lng": 79.18
+            },
+            "id": "Id_Spawner_Monster_SkeletonMelee_5type_Medium"
+        },
+        {
+            "coordinates": {
+                "lat": 220.93,
+                "lng": 109.36
+            },
+            "id": "Id_Spawner_Monster_SkeletonMelee_5type_Medium"
+        },
+        {
+            "coordinates": {
+                "lat": 223.79,
+                "lng": 64.36
+            },
+            "id": "Id_Spawner_Monster_SkeletonMelee_5type_Medium"
+        },
+        {
+            "coordinates": {
+                "lat": 226.39,
+                "lng": 66.4
+            },
+            "id": "Id_Spawner_Props_SkeletonCorpseRandom_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 227.55,
+                "lng": 63.31
+            },
+            "id": "Id_Spawner_LootDrop_Potion_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 229.14,
+                "lng": 102.93
+            },
+            "id": "Id_Spawner_Props_Pot01_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 228.43,
+                "lng": 113.29
+            },
+            "id": "Id_Spawner_Props_Pot03_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 173.07,
+                "lng": 69.0
+            },
+            "id": "Id_Spawner_Props_Pot01_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 170.93,
+                "lng": 67.21
+            },
+            "id": "Id_Spawner_Props_Pot03_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 181.64,
+                "lng": 69.0
+            },
+            "id": "Id_Spawner_LootDrop_Trinkets_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 179.5,
+                "lng": 66.14
+            },
+            "id": "Id_Spawner_Monster_SkeletonRanged_2type_Easy"
+        },
+        {
+            "coordinates": {
+                "lat": 220.93,
+                "lng": 106.14
+            },
+            "id": "Id_Spawner_Monster_SkeletonRanged_2type_Easy"
+        },
+        {
+            "coordinates": {
+                "lat": 180.21,
+                "lng": 108.64
+            },
+            "id": "Id_Spawner_Monster_SkeletonMelee_5type_Medium"
+        },
+        {
+            "coordinates": {
+                "lat": 180.93,
+                "lng": 62.57
+            },
+            "id": "Id_Spawner_Monster_SkeletonMelee_5type_Medium"
+        },
+        {
+            "coordinates": {
+                "lat": 228.57,
+                "lng": 80.0
+            },
+            "id": "Id_Spawner_Props_WoodChestSmall_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 228.57,
+                "lng": 91.43
+            },
+            "id": "Id_Spawner_Props_WoodChestSmall_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 171.43,
+                "lng": 80.0
+            },
+            "id": "Id_Spawner_Props_WoodChestSmall_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 171.43,
+                "lng": 91.43
+            },
+            "id": "Id_Spawner_Props_WoodChestSmall_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 170.39,
+                "lng": 113.5
+            },
+            "id": "Id_Spawner_Props_WoodChestSmall_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 170.39,
+                "lng": 102.96
+            },
+            "id": "Id_Spawner_Props_WoodChestSmall_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 161.07,
+                "lng": 117.86
+            },
+            "id": "Id_Spawner_Props_WoodChestSmall_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 226.68,
+                "lng": 56.75
+            },
+            "id": "Id_Spawner_Props_WoodenBarrel02_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 227.39,
+                "lng": 59.96
+            },
+            "id": "Id_Spawner_Props_WoodenBarrel02_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 229.32,
+                "lng": 108.04
+            },
+            "id": "Id_Spawner_Props_ChestSpecial_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 170.75,
+                "lng": 63.04
+            },
+            "id": "Id_Spawner_Props_ChestSpecial_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 229.54,
+                "lng": 57.82
+            },
+            "id": "Id_Spawner_Props_WoodenBarrel02_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 238.93,
+                "lng": 117.5
+            },
+            "id": "Id_Spawner_Props_WoodChestSmall_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 238.93,
+                "lng": 54.11
+            },
+            "id": "Id_Spawner_Props_WoodChestSmall_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 161.25,
+                "lng": 53.39
+            },
+            "id": "Id_Spawner_Props_WoodChestSmall_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 301.79,
+                "lng": 70.0
+            },
+            "id": "BP_PedestalPortal"
+        },
+        {
+            "coordinates": {
+                "lat": 47.79,
+                "lng": 123.25
+            },
+            "id": "BP_PedestalPortal"
+        },
+        {
+            "coordinates": {
+                "lat": 68.95,
+                "lng": 62.03
+            },
+            "id": "Id_Spawner_Props_ChestSpecial_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 74.91,
+                "lng": 50.96
+            },
+            "id": "Id_Spawner_Props_ChestSmall_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 88.04,
+                "lng": 93.75
+            },
+            "id": "Id_Spawner_Props_Pot04_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 110.46,
+                "lng": 66.86
+            },
+            "id": "Id_Spawner_Props_SpiderPot_Medium"
+        },
+        {
+            "coordinates": {
+                "lat": 71.21,
+                "lng": 42.68
+            },
+            "id": "Id_Spawner_Props_SpiderPot_Medium"
+        },
+        {
+            "coordinates": {
+                "lat": 86.54,
+                "lng": 93.61
+            },
+            "id": "Id_Spawner_Props_SpiderPot_Medium"
+        },
+        {
+            "coordinates": {
+                "lat": 131.11,
+                "lng": 72.83
+            },
+            "id": "Id_Spawner_Props_WallSpike"
+        },
+        {
+            "coordinates": {
+                "lat": 131.04,
+                "lng": 95.71
+            },
+            "id": "Id_Spawner_Props_WallSpike"
+        },
+        {
+            "coordinates": {
+                "lat": 102.28,
+                "lng": 131.01
+            },
+            "id": "Id_Spawner_Props_WallSpike"
+        },
+        {
+            "coordinates": {
+                "lat": 89.04,
+                "lng": 98.07
+            },
+            "id": "Id_Spawner_Props_Pot02_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 86.57,
+                "lng": 97.32
+            },
+            "id": "Id_Spawner_Props_Pot03_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 47.65,
+                "lng": 115.78
+            },
+            "id": "Id_Spawner_Monster_Zombie_Medium"
+        },
+        {
+            "coordinates": {
+                "lat": 65.04,
+                "lng": 42.14
+            },
+            "id": "Id_Spawner_Props_Ore_RubysilverOre_N"
+        },
+        {
+            "coordinates": {
+                "lat": 77.2,
+                "lng": 109.16
+            },
+            "id": "Id_Spawner_Props_Ore_RubysilverOre_N"
+        },
+        {
+            "coordinates": {
+                "lat": 121.92,
+                "lng": 66.55
+            },
+            "id": "Id_Spawner_Monster_GiantDragonfly_Medium"
+        },
+        {
+            "coordinates": {
+                "lat": 75.31,
+                "lng": 89.87
+            },
+            "id": "Id_Spawner_Monster_GiantDragonfly_Medium"
+        },
+        {
+            "coordinates": {
+                "lat": 122.24,
+                "lng": 85.97
+            },
+            "id": "Id_Spawner_Props_ChestMedium_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 42.82,
+                "lng": 129.06
+            },
+            "id": "Id_Spawner_Monster_GiantDragonfly_Medium"
+        },
+        {
+            "coordinates": {
+                "lat": 44.03,
+                "lng": 117.05
+            },
+            "id": "Id_Spawner_Monster_GiantDragonfly_Medium"
+        },
+        {
+            "coordinates": {
+                "lat": 128.12,
+                "lng": 128.88
+            },
+            "id": "Id_Spawner_Props_ChestSmall_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 97.96,
+                "lng": 128.04
+            },
+            "id": "Id_Spawner_Props_ChestSmall_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 106.14,
+                "lng": 44.32
+            },
+            "id": "Id_Spawner_Props_ChestSmall_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 50.61,
+                "lng": 95.54
+            },
+            "id": "Id_Spawner_Props_ChestSmall_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 67.86,
+                "lng": 91.46
+            },
+            "id": "Id_Spawner_Props_ChestSmall_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 64.89,
+                "lng": 67.29
+            },
+            "id": "Id_Spawner_Props_ChestSmall_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 200.29,
+                "lng": 200.11
+            },
+            "id": "Id_Spawner_Monster_Lich"
+        },
+        {
+            "coordinates": {
+                "lat": 200.32,
+                "lng": 185.29
+            },
+            "id": "Id_Spawner_Monster_SkeletonArcher_Summoned"
+        },
+        {
+            "coordinates": {
+                "lat": 246.36,
+                "lng": 207.04
+            },
+            "id": "Id_Spawner_LootDrop_Trinkets_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 248.93,
+                "lng": 208.21
+            },
+            "id": "Id_Spawner_LootDrop_Trinkets_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 248.54,
+                "lng": 195.32
+            },
+            "id": "Id_Spawner_LootDrop_Trinkets_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 249.98,
+                "lng": 199.95
+            },
+            "id": "Id_Spawner_Props_MarvelousChest_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 246.18,
+                "lng": 193.71
+            },
+            "id": "Id_Spawner_LootDrop_Trinkets_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 243.54,
+                "lng": 192.86
+            },
+            "id": "Id_Spawner_LootDrop_Trinkets_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 246.61,
+                "lng": 197.71
+            },
+            "id": "Id_Spawner_LootDrop_Trinkets_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 246.61,
+                "lng": 201.68
+            },
+            "id": "Id_Spawner_LootDrop_Trinkets_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 200.0,
+                "lng": 200.0
+            },
+            "id": "Id_Spawner_Monster_GhostKing"
+        },
+        {
+            "coordinates": {
+                "lat": 212.68,
+                "lng": 191.0
+            },
+            "id": "Id_Spawner_Monster_SkeletonArcher_Summoned"
+        },
+        {
+            "coordinates": {
+                "lat": 201.0,
+                "lng": 200.11
+            },
+            "id": "Id_Spawner_Monster_SkeletonWarlord"
+        },
+        {
+            "coordinates": {
+                "lat": 185.54,
+                "lng": 207.0
+            },
+            "id": "Id_Spawner_Monster_SkeletonArcher_Summoned"
+        },
+        {
+            "coordinates": {
+                "lat": 185.04,
+                "lng": 192.18
+            },
+            "id": "Id_Spawner_Monster_SkeletonGuardman_Summoned"
+        },
+        {
+            "coordinates": {
+                "lat": 199.79,
+                "lng": 214.79
+            },
+            "id": "Id_Spawner_Monster_SkeletonGuardman_Summoned"
+        },
+        {
+            "coordinates": {
+                "lat": 211.79,
+                "lng": 206.89
+            },
+            "id": "Id_Spawner_Monster_SkeletonGuardman_Summoned"
+        },
+        {
+            "coordinates": {
+                "lat": 237.86,
+                "lng": 197.5
+            },
+            "id": "Id_Spawner_Props_BossRewardDoor"
+        },
+        {
+            "coordinates": {
+                "lat": 246.62,
+                "lng": 200.63
+            },
+            "id": "Id_Spawner_Props_Hoard01_10_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 243.36,
+                "lng": 208.36
+            },
+            "id": "Id_Spawner_LootDrop_Trinkets_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 174.69,
+                "lng": 263.2
+            },
+            "id": "Id_Spawner_Props_WoodenBarrel02_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 183.5,
+                "lng": 287.47
+            },
+            "id": "Id_Spawner_Monster_SkeletonRanged_2type_Medium"
+        },
+        {
+            "coordinates": {
+                "lat": 249.64,
+                "lng": 264.64
+            },
+            "id": "Id_Spawner_Props_ChestSpecial_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 249.29,
+                "lng": 321.43
+            },
+            "id": "Id_Spawner_Props_ChestMedium_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 217.86,
+                "lng": 344.64
+            },
+            "id": "Id_Spawner_Props_WoodenBarrel02_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 222.18,
+                "lng": 343.32
+            },
+            "id": "Id_Spawner_Props_SkeletonCorpse_01_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 149.95,
+                "lng": 355.95
+            },
+            "id": "Id_Spawner_Monster_DeathSkull_Medium"
+        },
+        {
+            "coordinates": {
+                "lat": 160.66,
+                "lng": 351.31
+            },
+            "id": "Id_Spawner_Monster_DeathSkull_Medium"
+        },
+        {
+            "coordinates": {
+                "lat": 151.02,
+                "lng": 355.95
+            },
+            "id": "Id_Spawner_Monster_DeathSkull_Medium"
+        },
+        {
+            "coordinates": {
+                "lat": 192.14,
+                "lng": 264.29
+            },
+            "id": "Id_Spawner_Props_ChestMedium_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 171.5,
+                "lng": 279.9
+            },
+            "id": "Id_Spawner_Monster_SkeletonGuardsmanFromFakeDeath_Medium"
+        },
+        {
+            "coordinates": {
+                "lat": 223.82,
+                "lng": 333.26
+            },
+            "id": "Id_Spawner_Monster_SkeletonRanged_2type_Medium"
+        },
+        {
+            "coordinates": {
+                "lat": 231.6,
+                "lng": 296.61
+            },
+            "id": "Id_Spawner_Monster_SkeletonGuardsmanFromFakeDeath_Medium"
+        },
+        {
+            "coordinates": {
+                "lat": 217.93,
+                "lng": 279.9
+            },
+            "id": "Id_Spawner_Monster_SkeletonGuardsmanFromFakeDeath_Medium"
+        },
+        {
+            "coordinates": {
+                "lat": 197.55,
+                "lng": 267.67
+            },
+            "id": "Id_Spawner_Monster_SkeletonArcher_Medium"
+        },
+        {
+            "coordinates": {
+                "lat": 246.66,
+                "lng": 313.9
+            },
+            "id": "Id_Spawner_Monster_SkeletonRanged_2type_Medium"
+        },
+        {
+            "coordinates": {
+                "lat": 235.31,
+                "lng": 337.93
+            },
+            "id": "Id_Spawner_Monster_SkeletonMelee_5type_Medium"
+        },
+        {
+            "coordinates": {
+                "lat": 171.84,
+                "lng": 266.06
+            },
+            "id": "Id_Spawner_Props_WoodenBarrel02_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 227.5,
+                "lng": 343.57
+            },
+            "id": "Id_Spawner_Props_WoodenBarrel02_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 225.0,
+                "lng": 344.64
+            },
+            "id": "Id_Spawner_Props_WoodenBarrel02_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 230.36,
+                "lng": 343.93
+            },
+            "id": "Id_Spawner_Props_ChestSmall_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 250.36,
+                "lng": 332.14
+            },
+            "id": "Id_Spawner_Props_WoodenBarrel02_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 249.64,
+                "lng": 335.36
+            },
+            "id": "Id_Spawner_Props_WoodenBarrel02_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 215.0,
+                "lng": 343.93
+            },
+            "id": "Id_Spawner_Props_ChestSmall_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 191.43,
+                "lng": 340.36
+            },
+            "id": "Id_Spawner_Props_Pot04_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 186.86,
+                "lng": 343.21
+            },
+            "id": "Id_Spawner_Props_Pot03_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 247.14,
+                "lng": 356.07
+            },
+            "id": "Id_Spawner_Props_Lifeleaf_N"
+        },
+        {
+            "coordinates": {
+                "lat": 190.0,
+                "lng": 343.93
+            },
+            "id": "Id_Spawner_Props_Pot02_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 193.93,
+                "lng": 344.29
+            },
+            "id": "Id_Spawner_Props_Pot01_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 190.0,
+                "lng": 327.14
+            },
+            "id": "Id_Spawner_Props_ChestSmall_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 207.14,
+                "lng": 344.82
+            },
+            "id": "Id_Spawner_Props_Statue04"
+        },
+        {
+            "coordinates": {
+                "lat": 221.61,
+                "lng": 345.36
+            },
+            "id": "Id_Spawner_Props_Statue03"
+        },
+        {
+            "coordinates": {
+                "lat": 235.71,
+                "lng": 344.46
+            },
+            "id": "Id_Spawner_Props_Statue02"
+        },
+        {
+            "coordinates": {
+                "lat": 221.07,
+                "lng": 340.71
+            },
+            "id": "Id_Spawner_Props_SkeletonCorpse_02_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 171.79,
+                "lng": 304.64
+            },
+            "id": "Id_Spawner_Props_SkeletonCorpse_02_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 203.57,
+                "lng": 337.86
+            },
+            "id": "Id_Spawner_Props_ChestMedium_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 218.02,
+                "lng": 337.93
+            },
+            "id": "Id_Spawner_Monster_SkeletonMelee_5type_Medium"
+        },
+        {
+            "coordinates": {
+                "lat": 238.75,
+                "lng": 365.89
+            },
+            "id": "Id_Spawner_Props_Lifeleaf_N"
+        },
+        {
+            "coordinates": {
+                "lat": 206.36,
+                "lng": 335.97
+            },
+            "id": "Id_Spawner_Monster_Zombie_Elite"
+        },
+        {
+            "coordinates": {
+                "lat": 177.16,
+                "lng": 283.36
+            },
+            "id": "Id_Spawner_Monster_Wraith"
+        },
+        {
+            "coordinates": {
+                "lat": 171.57,
+                "lng": 270.71
+            },
+            "id": "Id_Spawner_Props_ChestSpecial_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 170.71,
+                "lng": 288.93
+            },
+            "id": "Id_Spawner_Props_ChestSmall_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 182.82,
+                "lng": 312.32
+            },
+            "id": "Id_Spawner_Props_ChestSmall_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 182.5,
+                "lng": 292.14
+            },
+            "id": "Id_Spawner_Props_ChestSmall_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 187.86,
+                "lng": 322.14
+            },
+            "id": "Id_Spawner_Props_ChestMedium_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 182.5,
+                "lng": 288.21
+            },
+            "id": "Id_Spawner_Props_ChestSmall_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 171.43,
+                "lng": 294.64
+            },
+            "id": "Id_Spawner_Props_WoodenBarrel02_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 149.29,
+                "lng": 365.0
+            },
+            "id": "Id_Spawner_Props_AltarOfSacrifice"
+        },
+        {
+            "coordinates": {
+                "lat": 239.82,
+                "lng": 366.43
+            },
+            "id": "Id_Spawner_Props_Lifeleaf_N"
+        },
+        {
+            "coordinates": {
+                "lat": 170.89,
+                "lng": 297.86
+            },
+            "id": "Id_Spawner_Props_WoodenBarrel02_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 219.06,
+                "lng": 293.99
+            },
+            "id": "Id_Spawner_Monster_SkeletonChampion"
+        },
+        {
+            "coordinates": {
+                "lat": 248.21,
+                "lng": 333.57
+            },
+            "id": "Id_Spawner_Props_ChestMedium_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 248.93,
+                "lng": 357.86
+            },
+            "id": "Id_Spawner_Props_Lifeleaf_N"
+        },
+        {
+            "coordinates": {
+                "lat": 172.55,
+                "lng": 303.2
+            },
+            "id": "Id_Spawner_LootDrop_Potion_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 248.21,
+                "lng": 342.14
+            },
+            "id": "Id_Spawner_Props_ChestMedium_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 191.79,
+                "lng": 290.36
+            },
+            "id": "Id_Spawner_Props_ChestMedium_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 191.79,
+                "lng": 294.64
+            },
+            "id": "Id_Spawner_Props_ChestMedium_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 228.21,
+                "lng": 286.07
+            },
+            "id": "Id_Spawner_Props_Statue01"
+        },
+        {
+            "coordinates": {
+                "lat": 173.57,
+                "lng": 296.61
+            },
+            "id": "Id_Spawner_Props_WoodenBarrel02_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 243.57,
+                "lng": 332.5
+            },
+            "id": "Id_Spawner_Props_ChestSmall_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 170.41,
+                "lng": 263.2
+            },
+            "id": "Id_Spawner_Props_WoodenBarrel02_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 177.14,
+                "lng": 337.5
+            },
+            "id": "Id_Spawner_Props_Pot03_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 171.79,
+                "lng": 265.71
+            },
+            "id": "Id_Spawner_Props_ChestMedium_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 249.64,
+                "lng": 343.21
+            },
+            "id": "Id_Spawner_Props_ChestMedium_N3"
+        },
+        {
+            "coordinates": {
+                "lat": 314.29,
+                "lng": 188.21
+            },
+            "id": "BP_FloorLever"
+        },
+        {
+            "coordinates": {
+                "lat": 318.93,
+                "lng": 153.04
+            },
+            "id": "BP_InfernoSecretWallDoor"
+        },
+        {
+            "coordinates": {
+                "lat": 318.93,
+                "lng": 144.46
+            },
+            "id": "BP_InfernoSecretWallDoor"
+        },
+        {
+            "coordinates": {
+                "lat": 310.0,
+                "lng": 144.46
+            },
+            "id": "BP_InfernoSecretWallDoor"
+        },
+        {
+            "coordinates": {
+                "lat": 317.46,
+                "lng": 211.46
+            },
+            "id": "Id_Spawner_Props_FloorLever"
+        },
+        {
+            "coordinates": {
+                "lat": 85.46,
+                "lng": 333.57
+            },
+            "id": "BP_PedestalPortal"
+        }
+    ],
+    "modules": [
+        {
+            "coordinates": {
+                "lat": 200.0,
+                "lng": 200.0
+            },
+            "id": "Dark Ritual Room"
+        },
+        {
+            "coordinates": {
+                "lat": 313.71,
+                "lng": 313.71
+            },
+            "id": "Blood River"
+        },
+        {
+            "coordinates": {
+                "lat": 86.29,
+                "lng": 200.0
+            },
+            "id": "Demon Gate"
+        },
+        {
+            "coordinates": {
+                "lat": 200.0,
+                "lng": 86.29
+            },
+            "id": "Blood Bridge"
+        },
+        {
+            "coordinates": {
+                "lat": 313.71,
+                "lng": 86.29
+            },
+            "id": "Demon Mouth"
+        },
+        {
+            "coordinates": {
+                "lat": 86.29,
+                "lng": 86.29
+            },
+            "id": "Spider Lair"
+        },
+        {
+            "coordinates": {
+                "lat": 200.0,
+                "lng": 313.71
+            },
+            "id": "Blood Castle"
+        },
+        {
+            "coordinates": {
+                "lat": 313.71,
+                "lng": 200.0
+            },
+            "id": "Demon Stairs"
+        },
+        {
+            "coordinates": {
+                "lat": 86.29,
+                "lng": 313.71
+            },
+            "id": "Blood Prison"
+        }
+    ]
+}
