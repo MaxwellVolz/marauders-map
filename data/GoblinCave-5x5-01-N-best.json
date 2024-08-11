@@ -1,0 +1,183 @@
+{
+    "markers": [
+        {
+            "coordinates": {
+                "lat": 99.98,
+                "lng": 166.14
+            },
+            "id": "BP_CaveExit",
+            "icon": "exit"
+        },
+        {
+            "coordinates": {
+                "lat": 231.4,
+                "lng": 133.08
+            },
+            "id": "BP_CaveExit",
+            "icon": "exit"
+        },
+        {
+            "coordinates": {
+                "lat": 229.08,
+                "lng": 356.5
+            },
+            "id": "BP_CaveExit",
+            "icon": "exit"
+        },
+        {
+            "coordinates": {
+                "lat": 52.64,
+                "lng": 200.84
+            },
+            "id": "Id_Spawner_Props_AltarOfSacrifice",
+            "icon": "rez"
+        },
+        {
+            "coordinates": {
+                "lat": 139.14,
+                "lng": 96.66
+            },
+            "id": "Id_Spawner_Props_AltarOfSacrifice",
+            "icon": "rez"
+        },
+        {
+            "coordinates": {
+                "lat": 280.86,
+                "lng": 85.52
+            },
+            "id": "Id_Spawner_Props_AltarOfSacrifice",
+            "icon": "rez"
+        },
+        {
+            "coordinates": {
+                "lat": 328.32,
+                "lng": 198.72
+            },
+            "id": "Id_Spawner_Props_AltarOfSacrifice",
+            "icon": "rez"
+        },
+        {
+            "coordinates": {
+                "lat": 223.92,
+                "lng": 224.53
+            },
+            "id": "Id_Spawner_Props_AltarOfSacrifice",
+            "icon": "rez"
+        },
+        {
+            "coordinates": {
+                "lat": 227.31,
+                "lng": 176.42
+            },
+            "id": "Id_Spawner_Props_AltarOfSacrifice",
+            "icon": "rez"
+        },
+        {
+            "coordinates": {
+                "lat": 175.39,
+                "lng": 175.14
+            },
+            "id": "Id_Spawner_Props_AltarOfSacrifice",
+            "icon": "rez"
+        },
+        {
+            "coordinates": {
+                "lat": 175.41,
+                "lng": 223.86
+            },
+            "id": "Id_Spawner_Props_AltarOfSacrifice",
+            "icon": "rez"
+        },
+        {
+            "coordinates": {
+                "lat": 136.15,
+                "lng": 271.75
+            },
+            "id": "Id_Spawner_Monster_CaveTroll"
+        },
+        {
+            "coordinates": {
+                "lat": 264.15,
+                "lng": 143.75
+            },
+            "id": "Id_Spawner_Monster_Cyclops"
+        },
+        {
+            "coordinates": {
+                "lat": 257.22,
+                "lng": 72.02
+            },
+            "id": "BP_PedestalPortal"
+        },
+        {
+            "coordinates": {
+                "lat": 250.92,
+                "lng": 263.5
+            },
+            "id": "BP_PedestalPortal"
+        },
+        {
+            "coordinates": {
+                "lat": 317.43,
+                "lng": 262.66
+            },
+            "id": "BP_FixedStairEscape"
+        },
+        {
+            "coordinates": {
+                "lat": 161.6,
+                "lng": 46.2
+            },
+            "id": "BP_FixedStairEscape"
+        },
+        {
+            "coordinates": {
+                "lat": 136.09,
+                "lng": 351.44
+            },
+            "id": "BP_FixedStairEscape"
+        },
+        {
+            "coordinates": {
+                "lat": 351.74,
+                "lng": 160.08
+            },
+            "id": "BP_FixedStairEscape"
+        },
+        {
+            "coordinates": {
+                "lat": 48.82,
+                "lng": 240.38
+            },
+            "id": "BP_FixedStairEscape"
+        },
+        {
+            "coordinates": {
+                "lat": 200.02,
+                "lng": 200.02
+            },
+            "id": "BP_FixedStairEscape"
+        },
+        {
+            "coordinates": {
+                "lat": 200.0,
+                "lng": 200.0
+            },
+            "id": "BP_FixedStairEscape"
+        },
+        {
+            "coordinates": {
+                "lat": 200.04,
+                "lng": 200.04
+            },
+            "id": "BP_FixedStairEscape"
+        },
+        {
+            "coordinates": {
+                "lat": 200.06,
+                "lng": 200.06
+            },
+            "id": "BP_FixedStairEscape"
+        }
+    ]
+}

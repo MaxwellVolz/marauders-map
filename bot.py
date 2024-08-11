@@ -68,20 +68,139 @@ class MainController:
 
         # Adjust minimap scaling
         target_size = (550, 550)  # Example target size (width, height)
-        minimap_resized = self.resize_image(minimap, target_size=target_size)
-
-        # cv2.imshow("minimap_resized", minimap_resized)
-        # cv2.waitKey(0)
+        minimap_resized = resize_image(minimap, target_size=target_size)
 
         self.goblincave_scan(minimap_resized)
 
-        # Step 2: Determine which map we are on
-        # map_name = self.identify_map(minimap_resized)
-        # print(f"Map identified: {map_name}")
+    def compare_images(self, minimap, reference_image):
+        # Use template matching to find the minimap in the reference image
+        result = cv2.matchTemplate(reference_image, minimap, cv2.TM_CCOEFF_NORMED)
+        _, max_val, _, max_loc = cv2.minMaxLoc(result)
 
-        # # Step 3: Determine location (placeholder for further implementation)
-        # location = self.determine_location(minimap)
-        # print(f"Location determined: {location}")
+        # Optionally, draw a rectangle around the matched region for debugging
+        h, w = minimap.shape[:2]
+        cv2.rectangle(
+            reference_image, max_loc, (max_loc[0] + w, max_loc[1] + h), (0, 255, 0), 2
+        )
+        # cv2.imshow("Matched Region", reference_image)
+        # cv2.waitKey(0)
+
+        return max_val
+
+    def translate_coords(self, markers, goblin_ref, drawit=False):
+        img_h, img_w = goblin_ref.shape[:2]
+
+        translated_markers = []
+
+        icons = {
+            "rez": cv2.imread(
+                "./images/icons/rez.png",
+                cv2.IMREAD_UNCHANGED,
+            ),
+            "exit": cv2.imread(
+                "./images/icons/exit.png",
+                cv2.IMREAD_UNCHANGED,
+            ),
+            "boss": cv2.imread(
+                "./images/icons/boss.png",
+                cv2.IMREAD_UNCHANGED,
+            ),
+            # Add other icons here as needed
+        }
+
+        # Map and plot the coordinates
+        for marker in markers:
+            # Assuming lat and lng correspond to the x, y on the image
+            # You might need to
+            lat = marker["coordinates"]["lat"]
+            lng = marker["coordinates"]["lng"]
+
+            # Scale to maps dimensions
+            scaled_lat, scaled_lng = scale_coordinates(
+                lat, lng, 0, 400, 0, 400, 2048, 2048
+            )
+
+            # Transform the coordinates based on the origin
+            transformed_lat, transformed_lng = transform_coordinates(
+                scaled_lat, scaled_lng, img_h, img_w, origin="clockwise"
+            )
+
+            translated_markers.append(
+                {
+                    "marker_id": marker["id"],
+                    "lat": transformed_lat,
+                    "lng": transformed_lng,
+                }
+            )
+
+            # Icons
+            icon = marker.get("icon", "exit")
+            icon_img = icons.get(icon)
+
+            icon_h, icon_w = icon_img.shape[:2]
+
+            top_left_x = int(transformed_lat - icon_w // 2)
+            top_left_y = int(transformed_lng - 20 - icon_h // 2)
+
+            # Plot the transformed marker on the minimap
+            if drawit:
+                overlay_img(goblin_ref, icon_img, top_left_x, top_left_y)
+
+                # Labels
+                # cv2.circle(
+                #     goblin_ref,
+                #     (int(transformed_lat), int(transformed_lng)),
+                #     5,
+                #     (0, 0, 255),
+                #     -1,
+                # )
+                # cv2.putText(
+                #     goblin_ref,
+                #     marker_id,
+                #     (int(transformed_lat), int(transformed_lng) - 10),
+                #     cv2.FONT_HERSHEY_SIMPLEX,
+                #     0.4,
+                #     (255, 255, 255),
+                #     1,
+                # )
+
+        if drawit:
+            cv2.imshow("Matched Region", goblin_ref)
+            cv2.waitKey(0)
+
+        return translated_markers
+
+    def goblincave_scan(self, minimap):
+        img_path = "./images/all_levels"
+        goblin_img = "GoblinCave-5x5-01.png"
+        goblin_ref = cv2.imread(os.path.join(img_path, goblin_img))
+
+        # get location
+        result = cv2.matchTemplate(goblin_ref, minimap, cv2.TM_CCOEFF_NORMED)
+        _, max_val, _, max_loc = cv2.minMaxLoc(result)
+
+        # DEBUGGING: minimap outline
+        h, w = minimap.shape[:2]
+        cv2.rectangle(
+            goblin_ref, max_loc, (max_loc[0] + w, max_loc[1] + h), (0, 255, 0), 2
+        )
+
+        # DEBUGGING: minimap outline
+        player_location = [max_loc[0] + 270, max_loc[1] + 270]
+        cv2.circle(goblin_ref, player_location, 5, (0, 255, 255), 4)
+
+        # cv2.imshow("Matched Region", goblin_ref)
+        # cv2.waitKey(0)
+
+        os.path.join(img_path, goblin_img)
+
+        with open("./data/GoblinCave-5x5-01-N-best.json", "r") as f:
+            data = json.load(f)
+
+        trans_markers = self.translate_coords(data["markers"], goblin_ref, True)
+        print(trans_markers)
+
+        return
 
     def identify_map(self, minimap):
         # Compare captured minimap with reference images
@@ -98,129 +217,6 @@ class MainController:
                     best_match = filename
 
         return best_match
-
-    def compare_images(self, minimap, reference_image):
-        # Use template matching to find the minimap in the reference image
-        result = cv2.matchTemplate(reference_image, minimap, cv2.TM_CCOEFF_NORMED)
-        _, max_val, _, max_loc = cv2.minMaxLoc(result)
-
-        # Optionally, draw a rectangle around the matched region for debugging
-        h, w = minimap.shape[:2]
-        cv2.rectangle(
-            reference_image, max_loc, (max_loc[0] + w, max_loc[1] + h), (0, 255, 0), 2
-        )
-        cv2.imshow("Matched Region", reference_image)
-        cv2.waitKey(0)
-
-        return max_val
-
-    def goblincave_scan(self, minimap):
-        img_path = "./images/all_levels"
-        goblin_img = "GoblinCave-5x5-01.png"
-        goblin_ref = cv2.imread(os.path.join(img_path, goblin_img))
-
-        # get location
-        result = cv2.matchTemplate(goblin_ref, minimap, cv2.TM_CCOEFF_NORMED)
-        _, max_val, _, max_loc = cv2.minMaxLoc(result)
-
-        # Optionally, draw a rectangle around the matched region for debugging
-        h, w = minimap.shape[:2]
-        cv2.rectangle(
-            goblin_ref, max_loc, (max_loc[0] + w, max_loc[1] + h), (0, 255, 0), 2
-        )
-
-        exact_max_loc = [max_loc[0] + 270, max_loc[1] + 270]
-        exact_h, exact_w = [10, 10]
-        cv2.rectangle(
-            goblin_ref,
-            exact_max_loc,
-            (exact_max_loc[0] + exact_w, exact_max_loc[1] + exact_h),
-            (0, 255, 0),
-            2,
-        )
-
-        # cv2.imshow("Matched Region", goblin_ref)
-        # cv2.waitKey(0)
-
-        print(f"h: {h} | w: {w}")
-        print(f"max_loc[0] + w: {max_loc[0] + w}")
-        print(f"max_loc[1] + h: {max_loc[1] + h}")
-
-        # Load the JSON data with points of interest
-
-        os.path.join(img_path, goblin_img)
-
-        with open("./data/GoblinCave-5x5-01-N-ez.json", "r") as f:
-            data = json.load(f)
-
-        # Map and plot the coordinates
-        for marker in data["markers"]:
-            # Assuming lat and lng correspond to the x, y on the image
-            # You might need to scale these according to your map's dimensions
-            lat = marker["coordinates"]["lat"]
-            lng = marker["coordinates"]["lng"]
-            marker_id = marker["id"]
-
-            img_h, img_w = goblin_ref.shape[:2]
-
-            scaled_lat, scaled_lng = scale_coordinates(
-                lat, lng, 0, 400, 0, 400, 2048, 2048
-            )
-
-            # Transform the coordinates based on the origin
-            transformed_lat, transformed_lng = transform_coordinates(
-                scaled_lat, scaled_lng, img_h, img_w, origin="clockwise"
-            )
-
-            print(f"transformed_lat: {transformed_lat}")
-            print(f"transformed_lng: {transformed_lng}")
-
-            # Plot the transformed marker on the minimap
-            cv2.circle(
-                goblin_ref,
-                (int(transformed_lat), int(transformed_lng)),
-                5,
-                (0, 0, 255),
-                -1,
-            )
-            cv2.putText(
-                goblin_ref,
-                marker_id,
-                (int(transformed_lat), int(transformed_lng) - 10),
-                cv2.FONT_HERSHEY_SIMPLEX,
-                0.4,
-                (255, 255, 255),
-                1,
-            )
-
-            # Plot the marker on the minimap
-            cv2.circle(goblin_ref, (int(lat), int(lng)), 5, (0, 0, 255), -1)
-            cv2.putText(
-                goblin_ref,
-                f"{marker_id}_og",
-                (int(lat), int(lng) - 10),
-                cv2.FONT_HERSHEY_SIMPLEX,
-                0.4,
-                (255, 255, 255),
-                1,
-            )
-
-        cv2.imshow("Matched Region", goblin_ref)
-        cv2.waitKey(0)
-
-        return
-
-    def resize_image(self, image, scale=None, target_size=None):
-        """Resize the image to a specific scale or target size."""
-        if scale:
-            new_width = int(image.shape[1] * scale)
-            new_height = int(image.shape[0] * scale)
-            resized_image = cv2.resize(image, (new_width, new_height))
-        elif target_size:
-            resized_image = cv2.resize(image, target_size)
-        else:
-            resized_image = image
-        return resized_image
 
     def determine_location(self, minimap):
         # Placeholder method for determining location
@@ -267,6 +263,33 @@ def start():
     controller.run()
 
 
+def overlay_img(background, overlay, x, y):
+    # Get dimensions
+    h, w = overlay.shape[:2]
+
+    # Check for out of bounds
+    if x >= background.shape[1] or y >= background.shape[0]:
+        return
+
+    # Overlay bounds
+    x1, y1 = max(x, 0), max(y, 0)
+    x2, y2 = min(x + w, background.shape[1]), min(y + h, background.shape[0])
+
+    # Overlay area dimensions
+    overlay = overlay[(y1 - y) : (y2 - y), (x1 - x) : (x2 - x)]
+
+    # Transparency mask (if the icon has an alpha channel)
+    if overlay.shape[2] == 4:
+        alpha_mask = overlay[:, :, 3] / 255.0
+        for c in range(0, 3):
+            background[y1:y2, x1:x2, c] = (
+                alpha_mask * overlay[:, :, c]
+                + (1 - alpha_mask) * background[y1:y2, x1:x2, c]
+            )
+    else:
+        background[y1:y2, x1:x2] = overlay
+
+
 def transform_coordinates(lat, lng, image_height, image_width, origin="top-left"):
     if origin == "bottom-left":
         # Flip vertically (y-axis)
@@ -297,6 +320,19 @@ def transform_coordinates(lat, lng, image_height, image_width, origin="top-left"
         transformed_lng = lng
 
     return transformed_lat, transformed_lng
+
+
+def resize_image(image, scale=None, target_size=None):
+    """Resize the image to a specific scale or target size."""
+    if scale:
+        new_width = int(image.shape[1] * scale)
+        new_height = int(image.shape[0] * scale)
+        resized_image = cv2.resize(image, (new_width, new_height))
+    elif target_size:
+        resized_image = cv2.resize(image, target_size)
+    else:
+        resized_image = image
+    return resized_image
 
 
 def scale_coordinates(
