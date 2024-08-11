@@ -1,0 +1,25 @@
+{
+    "markers": [
+        {
+            "coordinates": {
+                "lat": 99.98,
+                "lng": 166.14
+            },
+            "id": "BP_CaveExit"
+        },
+        {
+            "coordinates": {
+                "lat": 231.4,
+                "lng": 133.08
+            },
+            "id": "BP_CaveExit"
+        },
+        {
+            "coordinates": {
+                "lat": 229.08,
+                "lng": 356.5
+            },
+            "id": "BP_CaveExit"
+        }
+    ]
+}
