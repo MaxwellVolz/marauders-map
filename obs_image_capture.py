@@ -1,18 +1,18 @@
-import os
+# import os
 
 import obspython as obs
 import numpy as np
 import cv2
 
-from ctypes import *
+from ctypes import *  # noqa
 from ctypes.util import find_library
 
 # Globals
-source_name = "minimap"
+source_name = "Dark and Darker"
 
 
 # FFI setup
-ffi = CDLL(find_library("obs"))
+ffi = CDLL(find_library("obs"))  # noqa
 render_texture = obs.gs_texrender_create(obs.GS_RGBA, obs.GS_ZS_NONE)
 surface = None
 
@@ -29,23 +29,29 @@ def wrap(funcname, restype, argtypes=None, use_lib=None):
     globals()[funcname] = func
 
 
-class TexRender(Structure):
+class TexRender(Structure):  # noqa
     pass
 
 
-class StageSurf(Structure):
+class StageSurf(Structure):  # noqa
     pass
 
 
-wrap("gs_stage_texture", None, argtypes=[POINTER(StageSurf), POINTER(TexRender)])
-wrap("gs_stagesurface_create", POINTER(StageSurf), argtypes=[c_uint, c_uint, c_int])
+wrap(
+    "gs_stage_texture", None, argtypes=[POINTER(StageSurf), POINTER(TexRender)]  # noqa
+)  # noqa
+wrap(
+    "gs_stagesurface_create",
+    POINTER(StageSurf),  # noqa
+    argtypes=[c_uint, c_uint, c_int],  # noqa
+)  # noqa
 wrap(
     "gs_stagesurface_map",
-    c_bool,
-    argtypes=[POINTER(StageSurf), POINTER(POINTER(c_ubyte)), POINTER(c_uint)],
+    c_bool,  # noqa
+    argtypes=[POINTER(StageSurf), POINTER(POINTER(c_ubyte)), POINTER(c_uint)],  # noqa
 )
-wrap("gs_stagesurface_destroy", None, argtypes=[POINTER(StageSurf)])
-wrap("gs_stagesurface_unmap", None, argtypes=[POINTER(StageSurf)])
+wrap("gs_stagesurface_destroy", None, argtypes=[POINTER(StageSurf)])  # noqa
+wrap("gs_stagesurface_unmap", None, argtypes=[POINTER(StageSurf)])  # noqa
 
 
 def script_description():
@@ -87,16 +93,18 @@ def get_frame_data():
 
             global surface
             if not surface:
-                surface = gs_stagesurface_create(
-                    c_uint(capture_width), c_uint(capture_height), c_int(obs.GS_RGBA)
+                surface = gs_stagesurface_create(  # noqa
+                    c_uint(capture_width),  # noqa
+                    c_uint(capture_height),  # noqa
+                    c_int(obs.GS_RGBA),  # noqa
                 )
             tex = obs.gs_texrender_get_texture(render_texture)
-            tex = c_void_p(int(tex))
-            tex = cast(tex, POINTER(TexRender))
-            gs_stage_texture(surface, tex)
-            data = POINTER(c_ubyte)()
+            tex = c_void_p(int(tex))  # noqa
+            tex = cast(tex, POINTER(TexRender))  # noqa
+            gs_stage_texture(surface, tex)  # noqa
+            data = POINTER(c_ubyte)()  # noqa
 
-            if gs_stagesurface_map(surface, byref(data), byref(c_uint(4))):
+            if gs_stagesurface_map(surface, byref(data), byref(c_uint(4))):  # noqa
                 # Convert the raw data into a NumPy array
                 np_data = np.ctypeslib.as_array(
                     data, shape=(capture_height, capture_width, 4)
@@ -113,7 +121,9 @@ def get_frame_data():
                 cv2.imwrite(file_path, image_bgr)
                 print(f"Image saved to {file_path}")
 
-                gs_stagesurface_unmap(surface)
+                gs_stagesurface_unmap(surface)  # noqa
+
+                return np_data_flipped
             else:
                 print("Failed to map the staging surface.")
             obs.gs_texrender_reset(render_texture)
@@ -130,7 +140,7 @@ def script_update(settings):
 
 
 def script_defaults(settings):
-    obs.obs_data_set_default_string(settings, "source_name", "minimap")
+    obs.obs_data_set_default_string(settings, "source_name", "Dark and Darker")
 
 
 def script_properties():

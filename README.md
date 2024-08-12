@@ -28,3 +28,10 @@ cd "C:\Users\narfa\AppData\Local\Programs\Python\Python311"
    - Path: C:\Users\narfa\AppData\Local\Programs\Python\Python311
 2. OBS -> Tools -> Scripts -> Add
    - Select Script
+  
+### OBS Display
+Right-click the OBS preview, or a scene, or a source, and notice the "Fullscreen Projector" menu item. Choose one of these and cast the preview/scene/source onto the monitor you choose
+
+### Advanced:
+
+[FrameData](https://github.com/upgradeQ/Streaming-Software-Scripting-Reference/blob/master/src/get_source_frame_data_ffi.py)
