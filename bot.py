@@ -13,7 +13,8 @@ from utils.ascii_text import marauder_map_ascii
 ############################################
 #                  KEYBINDS                #
 ############################################
-KEYBIND = "num 3"
+KEYBIND = "num 2"
+KEYBIND2 = "num 3"
 
 # Examples
 # KEYBIND = "ctrl+shift+d"
@@ -21,11 +22,15 @@ KEYBIND = "num 3"
 
 class MainController:
     def __init__(self, config_path="config.yaml", debug=True):
-
         # Load config
         self.config = self.load_config(config_path)
-
         self.debug = debug
+
+        self.map_image_path = "./images/all_levels/GoblinCave-5x5-01.png"
+
+        self.minimap = self.capture_minimap()
+        self.player_location = self.get_player_location()
+        self.map_displayed = False
 
         # Initialize any required state or resources here
         self.is_running = True
@@ -68,24 +73,55 @@ class MainController:
 
         # Adjust minimap scaling
         target_size = (550, 550)  # Example target size (width, height)
-        minimap_resized = resize_image(minimap, target_size=target_size)
+        self.minimap = resize_image(minimap, target_size=target_size)
 
-        self.goblincave_scan(minimap_resized)
+        self.goblincave_scan()
 
-    def compare_images(self, minimap, reference_image):
-        # Use template matching to find the minimap in the reference image
-        result = cv2.matchTemplate(reference_image, minimap, cv2.TM_CCOEFF_NORMED)
+    def get_player_location(self):
+        goblin_ref = cv2.imread("./images/all_levels/GoblinCave-5x5-01.png")
+
+        # get location
+        result = cv2.matchTemplate(goblin_ref, self.minimap, cv2.TM_CCOEFF_NORMED)
         _, max_val, _, max_loc = cv2.minMaxLoc(result)
 
-        # Optionally, draw a rectangle around the matched region for debugging
-        h, w = minimap.shape[:2]
-        cv2.rectangle(
-            reference_image, max_loc, (max_loc[0] + w, max_loc[1] + h), (0, 255, 0), 2
-        )
-        # cv2.imshow("Matched Region", reference_image)
+        player_location = [max_loc[0] + 270, max_loc[1] + 270]
+
+        return player_location, max_loc
+
+    def goblincave_scan(self):
+        img_path = "./images/all_levels"
+        goblin_img = "GoblinCave-5x5-01.png"
+        goblin_ref = cv2.imread(os.path.join(img_path, goblin_img))
+
+        # get location
+        player_location, minimap_location = self.get_player_location()
+
+        # DEBUGGING: minimap outline
+        h, w = self.minimap.shape[:2]
+        # cv2.rectangle(
+        #     goblin_ref,
+        #     minimap_location,
+        #     (minimap_location[0] + w, minimap_location[1] + h),
+        #     (0, 255, 0),
+        #     2,
+        # )
+        # DEBUGGING: player dot
+        cv2.circle(goblin_ref, player_location, 5, (0, 255, 255), 4)
+
+        # cv2.imshow("Matched Region", goblin_ref)
         # cv2.waitKey(0)
 
-        return max_val
+        os.path.join(img_path, goblin_img)
+
+        with open("./data/GoblinCave-5x5-01-N-best.json", "r") as f:
+            data = json.load(f)
+
+        trans_markers = self.translate_coords(data["markers"], goblin_ref, True)
+        print(trans_markers)
+
+        cv2.imwrite(os.path.join(img_path, "GoblinCave_with_icons.png"), goblin_ref)
+
+        return
 
     def translate_coords(self, markers, goblin_ref, drawit=False):
         img_h, img_w = goblin_ref.shape[:2]
@@ -133,6 +169,8 @@ class MainController:
                 }
             )
 
+            # TODO: save translated markers for fast live processing
+
             # Icons
             icon = marker.get("icon", "exit")
             icon_img = icons.get(icon)
@@ -142,65 +180,12 @@ class MainController:
             top_left_x = int(transformed_lat - icon_w // 2)
             top_left_y = int(transformed_lng - 20 - icon_h // 2)
 
-            # Plot the transformed marker on the minimap
-            if drawit:
-                overlay_img(goblin_ref, icon_img, top_left_x, top_left_y)
+            overlay_img(goblin_ref, icon_img, top_left_x, top_left_y)
 
-                # Labels
-                # cv2.circle(
-                #     goblin_ref,
-                #     (int(transformed_lat), int(transformed_lng)),
-                #     5,
-                #     (0, 0, 255),
-                #     -1,
-                # )
-                # cv2.putText(
-                #     goblin_ref,
-                #     marker_id,
-                #     (int(transformed_lat), int(transformed_lng) - 10),
-                #     cv2.FONT_HERSHEY_SIMPLEX,
-                #     0.4,
-                #     (255, 255, 255),
-                #     1,
-                # )
-
-        if drawit:
-            cv2.imshow("Matched Region", goblin_ref)
-            cv2.waitKey(0)
+        cv2.imshow("Matched Region", goblin_ref)
+        cv2.waitKey(0)
 
         return translated_markers
-
-    def goblincave_scan(self, minimap):
-        img_path = "./images/all_levels"
-        goblin_img = "GoblinCave-5x5-01.png"
-        goblin_ref = cv2.imread(os.path.join(img_path, goblin_img))
-
-        # get location
-        result = cv2.matchTemplate(goblin_ref, minimap, cv2.TM_CCOEFF_NORMED)
-        _, max_val, _, max_loc = cv2.minMaxLoc(result)
-
-        # DEBUGGING: minimap outline
-        h, w = minimap.shape[:2]
-        cv2.rectangle(
-            goblin_ref, max_loc, (max_loc[0] + w, max_loc[1] + h), (0, 255, 0), 2
-        )
-
-        # DEBUGGING: minimap outline
-        player_location = [max_loc[0] + 270, max_loc[1] + 270]
-        cv2.circle(goblin_ref, player_location, 5, (0, 255, 255), 4)
-
-        # cv2.imshow("Matched Region", goblin_ref)
-        # cv2.waitKey(0)
-
-        os.path.join(img_path, goblin_img)
-
-        with open("./data/GoblinCave-5x5-01-N-best.json", "r") as f:
-            data = json.load(f)
-
-        trans_markers = self.translate_coords(data["markers"], goblin_ref, True)
-        print(trans_markers)
-
-        return
 
     def identify_map(self, minimap):
         # Compare captured minimap with reference images
@@ -218,19 +203,29 @@ class MainController:
 
         return best_match
 
-    def determine_location(self, minimap):
-        # Placeholder method for determining location
-        # Implement location detection based on specific requirements
-        return "Unknown Location"
+    def compare_images(self, minimap, reference_image):
+        # Use template matching to find the minimap in the reference image
+        result = cv2.matchTemplate(reference_image, minimap, cv2.TM_CCOEFF_NORMED)
+        _, max_val, _, max_loc = cv2.minMaxLoc(result)
+
+        # Optionally, draw a rectangle around the matched region for debugging
+        h, w = minimap.shape[:2]
+        cv2.rectangle(
+            reference_image, max_loc, (max_loc[0] + w, max_loc[1] + h), (0, 255, 0), 2
+        )
+        # cv2.imshow("Matched Region", reference_image)
+        # cv2.waitKey(0)
+
+        return max_val
 
     def start_key_listener(self):
         # Start listening for the keybind
-        keyboard.add_hotkey(KEYBIND, self.trigger_action)
+        keyboard.add_hotkey(KEYBIND, self.scan)
+        keyboard.add_hotkey(KEYBIND2, self.trigger_action)
 
     def trigger_action(self):
         # This method is triggered by the keybind
         print("Keybind triggered! Executing action...")
-        self.scan()
 
     def run(self):
         # Print help statements
