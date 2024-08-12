@@ -1,4 +1,5 @@
 # import os
+from random import randint
 
 import obspython as obs
 import numpy as np
@@ -9,6 +10,8 @@ from ctypes.util import find_library
 
 # Globals
 source_name = "Dark and Darker"
+hotkey_id = obs.OBS_INVALID_HOTKEY_ID
+is_active = False
 
 
 # FFI setup
@@ -56,6 +59,120 @@ wrap("gs_stagesurface_unmap", None, argtypes=[POINTER(StageSurf)])  # noqa
 
 def script_description():
     return "A script to capture image data from a screen capture source."
+
+
+# Called at script load
+def script_load(settings):
+    global hotkey_id
+    hotkey_id = obs.obs_hotkey_register_frontend(
+        script_path(), "Marauders Map", on_updatemap_hotkey
+    )
+    hotkey_save_array = obs.obs_data_get_array(settings, "Marauders Map")
+    obs.obs_hotkey_load(hotkey_id, hotkey_save_array)
+    obs.obs_data_array_release(hotkey_save_array)
+
+
+def on_updatemap_hotkey(pressed):
+    print(f"pressed: {pressed}")
+    # global is_active
+    # is_active = pressed
+
+
+# Called every frame
+# Initialize a timer variable outside the function
+last_update_time = 0
+debug_mode = True
+
+
+def script_tick(seconds):
+    global last_update_time
+
+    last_update_time += seconds
+    if last_update_time >= 3:
+
+        last_update_time = 0  # Reset the timer
+
+        if is_active:
+            print("should be updating minimap")
+
+            if debug_mode:
+                minimap = (
+                    load_debug_image()
+                )  # Replace with your actual debug image loading function
+            else:
+                minimap = get_frame_data()
+
+            # TODO: if debug use load image as frame_data
+
+            target_size = (550, 550)
+            minimap = resize_image(minimap, target_size=target_size)
+
+            player_location = get_player_location(minimap)[0]
+
+            print(f"player_location: {player_location[0]}")
+
+            position_source_in_obs(player_location, "player_icon")
+
+            # TODO: instead of drawing a circle we need to position a source in OBS
+            # on top of an image of the map, at the correct location
+            # cv2.circle(goblin_ref, player_location, 5, (0, 255, 255), 4)
+
+
+def script_defaults(settings):
+    obs.obs_data_set_default_string(settings, "source_name", "Dark and Darker")
+
+
+def start_it():
+    global is_active
+    is_active = True
+
+
+def stop_it():
+    global is_active
+    is_active = False
+
+
+def script_properties():
+    props = obs.obs_properties_create()
+
+    obs.obs_properties_add_button(
+        props,
+        "start",
+        "Start",
+        lambda props, prop: (start_it()),
+    )
+
+    obs.obs_properties_add_button(
+        props,
+        "stop",
+        "Stop",
+        lambda props, prop: (stop_it()),
+    )
+
+    obs.obs_properties_add_button(
+        props,
+        "button2",
+        "Capture minimap",
+        lambda props, prop: (get_frame_data()),
+    )
+    return props
+
+
+def load_debug_image():
+    goblin_ref = cv2.imread(
+        "C:/Users/narfa/Documents/_git/marauders-map/output/captured_frame_31827.png"
+    )
+
+    minimap_np = np.array(goblin_ref)
+    minimap_cv = cv2.cvtColor(minimap_np, cv2.COLOR_BGR2RGB)
+
+    return minimap_cv
+
+
+def position_source_in_obs(player_location, source_name):
+
+    print(f"player_location: {player_location} | source_name: {source_name}")
+    return
 
 
 def get_frame_data():
@@ -113,17 +230,22 @@ def get_frame_data():
                 # Flip the image (rotate by 180 degrees)
                 np_data_flipped = np.flipud(np_data)
 
-                # Convert RGBA to BGR (OpenCV format)
-                image_bgr = cv2.cvtColor(np_data_flipped, cv2.COLOR_RGBA2BGR)
+                # TODO: trim to these with numpy
+                top_x, top_y, bot_x, bot_y = 480, 280, 740, 540
+                trimmed_np_data = np_data_flipped[top_y:bot_y, top_x:bot_x]
 
+                # Convert RGBA to BGR (OpenCV format)
+                image_bgr = cv2.cvtColor(trimmed_np_data, cv2.COLOR_RGBA2BGR)
                 # Save the captured image
-                file_path = "C:/Users/narfa/Documents/_git/marauders-map/output/captured_frame.png"
+                file_path = f"C:/Users/narfa/Documents/_git/marauders-map/output/captured_frame_{randint(10000, 99999)}.png"
                 cv2.imwrite(file_path, image_bgr)
                 print(f"Image saved to {file_path}")
 
                 gs_stagesurface_unmap(surface)  # noqa
 
-                return np_data_flipped
+                minimap_np = np.array(trimmed_np_data)
+                minimap_cv = cv2.cvtColor(minimap_np, cv2.COLOR_BGR2RGB)
+
             else:
                 print("Failed to map the staging surface.")
             obs.gs_texrender_reset(render_texture)
@@ -134,53 +256,33 @@ def get_frame_data():
     else:
         print(f"Source '{source_name}' not found.")
 
-
-def script_update(settings):
-    get_frame_data()
+    return minimap_cv
 
 
-def script_defaults(settings):
-    obs.obs_data_set_default_string(settings, "source_name", "Dark and Darker")
-
-
-def script_properties():
-    props = obs.obs_properties_create()
-
-    # Drop-down list of sources
-    list_property = obs.obs_properties_add_list(
-        props,
-        "source_name",
-        "Source name",
-        obs.OBS_COMBO_TYPE_LIST,
-        obs.OBS_COMBO_FORMAT_STRING,
-    )
-    populate_list_property_with_source_names(list_property)
-
-    # Button to refresh the drop-down list
-    obs.obs_properties_add_button(
-        props,
-        "button",
-        "Refresh list of sources",
-        lambda props, prop: (
-            True if populate_list_property_with_source_names(list_property) else True
-        ),
+def get_player_location(minimap):
+    goblin_ref = cv2.imread(
+        "C:/Users/narfa/Documents/_git/marauders-map/images/all_levels/GoblinCave-5x5-01.png"
     )
 
-    obs.obs_properties_add_button(
-        props,
-        "button2",
-        "Capture minimap",
-        lambda props, prop: (get_frame_data()),
-    )
+    print("read file")
 
-    return props
+    # get location
+    result = cv2.matchTemplate(goblin_ref, minimap, cv2.TM_CCOEFF_NORMED)
+    _, max_val, _, max_loc = cv2.minMaxLoc(result)
+
+    player_location = [max_loc[0] + 270, max_loc[1] + 270]
+
+    return player_location, max_loc
 
 
-def populate_list_property_with_source_names(list_property):
-    sources = obs.obs_enum_sources()
-    obs.obs_property_list_clear(list_property)
-    obs.obs_property_list_add_string(list_property, "", "")
-    for source in sources:
-        name = obs.obs_source_get_name(source)
-        obs.obs_property_list_add_string(list_property, name, name)
-    obs.source_list_release(sources)
+def resize_image(image, scale=None, target_size=None):
+    """Resize the image to a specific scale or target size."""
+    if scale:
+        new_width = int(image.shape[1] * scale)
+        new_height = int(image.shape[0] * scale)
+        resized_image = cv2.resize(image, (new_width, new_height))
+    elif target_size:
+        resized_image = cv2.resize(image, target_size)
+    else:
+        resized_image = image
+    return resized_image
